@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBC News Headlines</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 900px;
+            width: 100%;
+            padding: 40px;
+            animation: slideIn 0.5s ease-out;
+        }
+        
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-align: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .timestamp {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 0.9em;
+        }
+        
+        .headlines {
+            list-style: none;
+        }
+        
+        .headline-item {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 15px 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            animation: fadeIn 0.5s ease-out;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateX(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        
+        .headline-item:hover {
+            transform: translateX(10px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+            background: #e9ecef;
+        }
+        
+        .headline-number {
+            font-weight: bold;
+            color: #667eea;
+            margin-right: 10px;
+            font-size: 1.1em;
+        }
+        
+        .headline-text {
+            color: #333;
+            line-height: 1.6;
+            font-size: 1.05em;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #e9ecef;
+            color: #888;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📰 BBC News Headlines</h1>
+        <div class="timestamp">
+            BBC News Headlines - 2025-11-02 19:29:48
+        </div>
+        <ul class="headlines">
+            <li class="headline-item"><span class="headline-number">1.</span><span class="headline-text">What we know about stabbings on Doncaster to London train</span></li>
+            <li class="headline-item"><span class="headline-number">2.</span><span class="headline-text">Train stabbing witnesses describe bloodied seats and people arming themselves with bottle</span></li>
+            <li class="headline-item"><span class="headline-number">3.</span><span class="headline-text">'No help, no food, no water': hurricane-hit Jamaican towns desperately wait for aid</span></li>
+            <li class="headline-item"><span class="headline-number">4.</span><span class="headline-text">Louvre heist was by petty criminals not organised crime professionals, prosecutor says</span></li>
+            <li class="headline-item"><span class="headline-number">5.</span><span class="headline-text">King to strip Andrew of his final military title, minister says</span></li>
+            <li class="headline-item"><span class="headline-number">6.</span><span class="headline-text">India beat SA for historic first World Cup win</span></li>
+            <li class="headline-item"><span class="headline-number">7.</span><span class="headline-text">Avalanche in Italy kills five including father and daughter</span></li>
+            <li class="headline-item"><span class="headline-number">8.</span><span class="headline-text">Tear gas, smashed windows and masked agents: The tactics used in Trump's deportation drive</span></li>
+            <li class="headline-item"><span class="headline-number">9.</span><span class="headline-text">Salmond's estate seeks 'bankruptcy' over legal costs</span></li>
+            <li class="headline-item"><span class="headline-number">10.</span><span class="headline-text">Staff shortages from government shutdown cause delays at US airports</span></li>
+        </ul>
+        <div class="footer">
+            Live news from BBC - Refreshed automatically
+        </div>
+    </div>
+    <script>
+        // Auto-close countdown (10 seconds)
+        let timeLeft = 10;
+        const countdown = document.createElement('div');
+        countdown.style.cssText = 'position: fixed; top: 20px; right: 20px; background: rgba(0,0,0,0.8); color: white; padding: 15px 25px; border-radius: 10px; font-size: 1.2em; font-weight: bold; z-index: 1000;';
+        countdown.textContent = 'Closing in ' + timeLeft + 's';
+        document.body.appendChild(countdown);
+        
+        const interval = setInterval(function() {
+            timeLeft--;
+            countdown.textContent = 'Closing in ' + timeLeft + 's';
+            if (timeLeft <= 0) {
+                clearInterval(interval);
+                window.close();
+            }
+        }, 1000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+2025-11-02 19:07:29,938 - __main__ - ERROR - Main error: cannot access local variable 'os' where it is not associated with a value
+2025-11-02 19:07:37,736 - __main__ - ERROR - Main error: cannot access local variable 'os' where it is not associated with a value
+2025-11-02 19:08:09,945 - RAG - INFO - Initialized with 7 Paint documents
+2025-11-02 19:08:09,946 - RAG - INFO - Initialized with 5 BBC documents
+2025-11-02 19:08:09,947 - RAG - INFO - RAG module initialized
+2025-11-02 19:08:09,947 - Perception - INFO - RAG module integrated into Perception
+2025-11-02 19:08:09,947 - Perception - INFO - Perception module initialized
+2025-11-02 19:08:09,949 - Memory - INFO - Comprehensive Memory module initialized
+2025-11-02 19:08:09,949 - Decision_Making - INFO - Decision-Making module initialized
+2025-11-02 19:08:09,949 - __main__ - INFO - Connecting to MCP server...
+2025-11-02 19:08:11,152 - Action - INFO - Action module initialized
+2025-11-02 19:08:11,157 - __main__ - INFO - Processing user input through perception...
+2025-11-02 19:08:11,157 - Perception - INFO - Processing user input: Get me the latest BBC headlines and display them i...
+2025-11-02 19:08:11,157 - Perception - INFO - Extracted 7 fact categories from prompt
+2025-11-02 19:08:11,158 - Perception - INFO - Applying RAG context enhancement for BBC headlines-related query
+2025-11-02 19:08:11,158 - RAG - INFO - Retrieved 3 relevant documents for query: Get me the latest BBC headlines and display them i
+2025-11-02 19:08:11,158 - RAG - INFO - Context enhanced with retrieved documents
+2025-11-02 19:08:11,158 - RAG - INFO - Retrieved 3 relevant documents for query: Get me the latest BBC headlines and display them i
+2025-11-02 19:08:11,159 - RAG - INFO - Generated 5 function recommendations
+2025-11-02 19:08:11,159 - Perception - INFO - Added 3 relevant documents
+2025-11-02 19:08:11,159 - Perception - INFO - Input processed: Type=news_fetching
+2025-11-02 19:08:11,159 - Memory - INFO - Stored prompt facts
+2025-11-02 19:08:11,159 - __main__ - INFO - 
+--- Iteration 1 ---
+2025-11-02 19:08:11,159 - Perception - INFO - Observing environment
+2025-11-02 19:08:11,159 - Perception - INFO - Extracted 7 fact categories from prompt
+2025-11-02 19:08:11,159 - Perception - INFO - Environment observation complete: 6 data points
+2025-11-02 19:08:11,159 - Decision_Making - INFO - Generating decision
+2025-11-02 19:08:11,159 - Decision_Making - INFO - Input analysis complete: 3 signals, 6 hints
+2025-11-02 19:08:11,160 - Decision_Making - INFO - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'news_fetching'}, 'memory_analysis': {'total_iterations': 0, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: news_fetching', 'Key concepts: bbc, headlines, browser'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures', 'Visualization required']}
+2025-11-02 19:08:11,160 - Decision_Making - INFO - Generating AI response (timeout: 30s)
+2025-11-02 19:08:12,372 - Decision_Making - INFO - Decision generated: FUNCTION_CALL: fetch_bbc_headlines|10...
+2025-11-02 19:08:12,373 - Action - INFO - Executing decision: function_call
+2025-11-02 19:08:12,373 - Memory - INFO - Stored decision: function_call
+2025-11-02 19:08:12,373 - Action - INFO - Executing tool: fetch_bbc_headlines with arguments: {'num_headlines': 10}
+2025-11-02 19:08:12,495 - Action - INFO - Tool execution successful: fetch_bbc_headlines
+2025-11-02 19:08:12,496 - Memory - INFO - Storing tool call: fetch_bbc_headlines
+2025-11-02 19:08:12,496 - Memory - INFO - Tracked method call: tools.fetch_bbc_headlines
+2025-11-02 19:08:12,496 - Memory - INFO - Tracked method call: tools.fetch_bbc_headlines
+2025-11-02 19:08:12,497 - Action - INFO - Function call result: {
+  "content": [
+    {
+      "type": "text",
+      "text": "Successfully fetched 10 BBC headlines and saved to bbc_headlines.txt",
+      "annotations": null,
+      "_meta": null
+    }
+  ]
+}
+2025-11-02 19:08:12,497 - Memory - INFO - Storing iteration 1
+2025-11-02 19:08:13,498 - __main__ - INFO - 
+--- Iteration 2 ---
+2025-11-02 19:08:13,499 - Perception - INFO - Observing environment
+2025-11-02 19:08:13,499 - Perception - INFO - Extracted 7 fact categories from prompt
+2025-11-02 19:08:13,499 - Perception - INFO - Environment observation complete: 6 data points
+2025-11-02 19:08:13,500 - Decision_Making - INFO - Generating decision
+2025-11-02 19:08:13,501 - Decision_Making - INFO - Input analysis complete: 5 signals, 6 hints
+2025-11-02 19:08:13,502 - Decision_Making - INFO - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'news_fetching'}, 'memory_analysis': {'total_iterations': 1, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: news_fetching', 'Key concepts: bbc, headlines, browser', 'Last result: [\'{\\n  "content": [\\n    {\\n      "type": "text",\\n      "text": "Successfully fetched 10 BBC headlines and saved to bbc_headlines.txt",\\n      "annotations": null,\\n      "_meta": null\\n    }\\n  ]\\n}\']', 'Most used function: fetch_bbc_headlines (2 times)'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures', 'Visualization required']}
+2025-11-02 19:08:13,502 - Decision_Making - INFO - Generating AI response (timeout: 30s)
+2025-11-02 19:08:14,621 - Decision_Making - INFO - Decision generated: The query is to get BBC headlines and display them in the browser. The last call fetched the headlin...
+2025-11-02 19:08:14,622 - Action - INFO - Executing decision: function_call
+2025-11-02 19:08:14,622 - Memory - INFO - Stored decision: function_call
+2025-11-02 19:08:14,622 - Action - INFO - Executing tool: display_headlines_in_browser with arguments: {}
+2025-11-02 19:08:25,203 - Action - INFO - Tool execution successful: display_headlines_in_browser
+2025-11-02 19:08:25,204 - Memory - INFO - Storing tool call: display_headlines_in_browser
+2025-11-02 19:08:25,204 - Memory - INFO - Tracked method call: tools.display_headlines_in_browser
+2025-11-02 19:08:25,205 - Memory - INFO - Tracked method call: tools.display_headlines_in_browser
+2025-11-02 19:08:25,205 - Action - INFO - Function call result: {
+  "content": [
+    {
+      "type": "text",
+      "text": "Successfully displayed headlines in browser. HTML file saved to bbc_headlines.html. Browser will remain open.",
+      "annotations": null,
+      "_meta": null
+    }
+  ]
+}
+2025-11-02 19:08:25,205 - Memory - INFO - Storing iteration 2
+2025-11-02 19:08:26,207 - __main__ - INFO - 
+--- Iteration 3 ---
+2025-11-02 19:08:26,208 - Perception - INFO - Observing environment
+2025-11-02 19:08:26,208 - Perception - INFO - Extracted 7 fact categories from prompt
+2025-11-02 19:08:26,209 - Perception - INFO - Environment observation complete: 6 data points
+2025-11-02 19:08:26,210 - Decision_Making - INFO - Generating decision
+2025-11-02 19:08:26,210 - Decision_Making - INFO - Input analysis complete: 5 signals, 6 hints
+2025-11-02 19:08:26,210 - Decision_Making - INFO - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'news_fetching'}, 'memory_analysis': {'total_iterations': 2, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: news_fetching', 'Key concepts: bbc, headlines, browser', 'Last result: [\'{\\n  "content": [\\n    {\\n      "type": "text",\\n      "text": "Successfully displayed headlines in browser. HTML file saved to bbc_headlines.html. Browser will remain open.",\\n      "annotations": null,\\n      "_meta": null\\n    }\\n  ]\\n}\']', 'Most used function: fetch_bbc_headlines (2 times)'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures', 'Visualization required']}
+2025-11-02 19:08:26,211 - Decision_Making - INFO - Generating AI response (timeout: 30s)
+2025-11-02 19:08:27,061 - Decision_Making - INFO - Decision generated: FUNCTION_CALL: fetch_bbc_headlines|10...
+2025-11-02 19:08:27,062 - Action - INFO - Executing decision: function_call
+2025-11-02 19:08:27,062 - Memory - INFO - Stored decision: function_call
+2025-11-02 19:08:27,063 - Action - INFO - Executing tool: fetch_bbc_headlines with arguments: {'num_headlines': 10}
+2025-11-02 19:08:27,298 - Action - INFO - Tool execution successful: fetch_bbc_headlines
+2025-11-02 19:08:27,298 - Memory - INFO - Storing tool call: fetch_bbc_headlines
+2025-11-02 19:08:27,299 - Memory - INFO - Tracked method call: tools.fetch_bbc_headlines
+2025-11-02 19:08:27,299 - Memory - INFO - Tracked method call: tools.fetch_bbc_headlines
+2025-11-02 19:08:27,299 - Action - INFO - Function call result: {
+  "content": [
+    {
+      "type": "text",
+      "text": "Successfully fetched 10 BBC headlines and saved to bbc_headlines.txt",
+      "annotations": null,
+      "_meta": null
+    }
+  ]
+}
+2025-11-02 19:08:27,299 - Memory - INFO - Storing iteration 3

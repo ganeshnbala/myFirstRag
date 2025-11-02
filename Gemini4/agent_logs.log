@@ -1,0 +1,1336 @@
+2025-10-27 00:02:07,034 - INFO - __main__ - Initializing Agent System
+2025-10-27 00:02:07,034 - INFO - Perception - Perception module initialized
+2025-10-27 00:02:07,035 - INFO - Memory - Memory module initialized
+2025-10-27 00:02:07,035 - INFO - Decision_Making - Decision-Making module initialized
+2025-10-27 00:02:07,035 - INFO - __main__ - Agent System initialized successfully
+2025-10-27 00:02:07,035 - INFO - __main__ - === Starting Agent Execution ===
+2025-10-27 00:02:07,035 - INFO - __main__ - Establishing connection to MCP server...
+2025-10-27 00:02:07,123 - INFO - __main__ - Connection established, creating session...
+2025-10-27 00:02:07,125 - INFO - __main__ - Session created, initializing...
+2025-10-27 00:02:07,201 - ERROR - __main__ - Error in main execution: unhandled errors in a TaskGroup (1 sub-exception)
+2025-10-27 00:02:07,235 - INFO - Memory - === Agent Execution Complete ===
+2025-10-27 00:02:19,344 - INFO - __main__ - Initializing Agent System
+2025-10-27 00:02:19,344 - INFO - Perception - Perception module initialized
+2025-10-27 00:02:19,344 - INFO - Memory - Memory module initialized
+2025-10-27 00:02:19,344 - INFO - Decision_Making - Decision-Making module initialized
+2025-10-27 00:02:19,345 - INFO - __main__ - Agent System initialized successfully
+2025-10-27 00:02:19,345 - INFO - __main__ - === Starting Agent Execution ===
+2025-10-27 00:02:19,345 - INFO - __main__ - Establishing connection to MCP server...
+2025-10-27 00:02:19,358 - INFO - __main__ - Connection established, creating session...
+2025-10-27 00:02:19,359 - INFO - __main__ - Session created, initializing...
+2025-10-27 00:02:20,114 - INFO - Action - Action module initialized
+2025-10-27 00:02:20,114 - INFO - __main__ - Requesting tool list...
+2025-10-27 00:02:20,117 - INFO - __main__ - Retrieved 23 tools
+2025-10-27 00:02:20,117 - INFO - __main__ - Processing user input through perception...
+2025-10-27 00:02:20,117 - INFO - Perception - Processing user input: Find the ASCII values of characters in INDIA and t...
+2025-10-27 00:02:20,117 - INFO - Perception - Input processed: Type=mathematical
+2025-10-27 00:02:20,117 - INFO - __main__ - 
+--- Iteration 1 ---
+2025-10-27 00:02:20,117 - INFO - Perception - Observing environment
+2025-10-27 00:02:20,118 - INFO - Perception - Environment observation complete: 5 data points
+2025-10-27 00:02:20,118 - INFO - __main__ - Making decision...
+2025-10-27 00:02:20,118 - INFO - Decision_Making - Generating decision
+2025-10-27 00:02:20,118 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:02:20,852 - INFO - Decision_Making - Decision generated: What is 2 + 2?
+FUNCTION_CALL: add|2|2...
+2025-10-27 00:02:20,852 - INFO - __main__ - Decision: function_call
+2025-10-27 00:02:20,853 - INFO - Action - Executing decision: function_call
+2025-10-27 00:02:20,854 - INFO - Action - Executing tool: add with arguments: {'a': 2, 'b': 2}
+2025-10-27 00:02:20,861 - INFO - Action - Tool execution successful: add
+2025-10-27 00:02:20,861 - INFO - Action - Function call result: 4
+2025-10-27 00:02:20,862 - INFO - Memory - Storing iteration 0
+2025-10-27 00:02:20,862 - INFO - __main__ - 
+--- Iteration 2 ---
+2025-10-27 00:02:20,862 - INFO - Perception - Observing environment
+2025-10-27 00:02:20,862 - INFO - Perception - Environment observation complete: 5 data points
+2025-10-27 00:02:20,862 - INFO - __main__ - Making decision...
+2025-10-27 00:02:20,862 - INFO - Decision_Making - Generating decision
+2025-10-27 00:02:20,863 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:02:21,413 - INFO - Decision_Making - Decision generated: FINAL_ANSWER: [4]...
+2025-10-27 00:02:21,413 - INFO - __main__ - Decision: final_answer
+2025-10-27 00:02:21,414 - INFO - Action - Executing decision: final_answer
+2025-10-27 00:02:21,414 - INFO - Action - Handling final answer
+2025-10-27 00:02:21,414 - INFO - Action - Final answer: [4]
+2025-10-27 00:02:21,414 - INFO - Memory - Storing iteration 1
+2025-10-27 00:02:21,414 - INFO - __main__ - Final answer reached
+2025-10-27 00:02:21,415 - INFO - __main__ - Final result: [4]
+2025-10-27 00:02:21,546 - INFO - Memory - === Agent Execution Complete ===
+2025-10-27 00:25:13,375 - INFO - __main__ - Initializing Agent System
+2025-10-27 00:25:13,375 - INFO - Perception - Perception module initialized
+2025-10-27 00:25:13,376 - INFO - Memory - Comprehensive Memory module initialized
+2025-10-27 00:25:13,377 - INFO - Decision_Making - Decision-Making module initialized
+2025-10-27 00:25:13,377 - INFO - __main__ - Agent System initialized successfully
+2025-10-27 00:25:13,377 - INFO - __main__ - === Starting Agent Execution ===
+2025-10-27 00:25:13,377 - INFO - __main__ - Establishing connection to MCP server...
+2025-10-27 00:25:13,398 - INFO - __main__ - Connection established, creating session...
+2025-10-27 00:25:13,399 - INFO - __main__ - Session created, initializing...
+2025-10-27 00:25:14,159 - INFO - Action - Action module initialized
+2025-10-27 00:25:14,160 - INFO - __main__ - Requesting tool list...
+2025-10-27 00:25:14,164 - INFO - __main__ - Retrieved 23 tools
+2025-10-27 00:25:14,164 - INFO - __main__ - Processing user input through perception...
+2025-10-27 00:25:14,164 - INFO - Perception - Processing user input: Find the ASCII values of characters in INDIA and t...
+2025-10-27 00:25:14,164 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:25:14,165 - INFO - Perception - Input processed: Type=mathematical
+2025-10-27 00:25:14,165 - INFO - Memory - Stored prompt facts
+2025-10-27 00:25:14,165 - INFO - __main__ - 
+--- Iteration 1 ---
+2025-10-27 00:25:14,165 - INFO - Perception - Observing environment
+2025-10-27 00:25:14,165 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:25:14,166 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:25:14,166 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:25:14,166 - INFO - Decision_Making - Generating decision
+2025-10-27 00:25:14,166 - INFO - Decision_Making - Input analysis complete: 3 signals, 5 hints
+2025-10-27 00:25:14,166 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 0, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:25:14,166 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:25:14,850 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: strings_to_chars_to_int|INDIA...
+2025-10-27 00:25:14,851 - INFO - __main__ - Decision type: function_call
+2025-10-27 00:25:14,851 - INFO - __main__ - Decision data: {'function_name': 'strings_to_chars_to_int', 'arguments': {'string': 'INDIA'}}
+2025-10-27 00:25:14,851 - INFO - __main__ - Executing action...
+2025-10-27 00:25:14,851 - INFO - Action - Executing decision: function_call
+2025-10-27 00:25:14,852 - INFO - Memory - Stored decision: function_call
+2025-10-27 00:25:14,852 - INFO - Action - Executing tool: strings_to_chars_to_int with arguments: {'string': 'INDIA'}
+2025-10-27 00:25:14,857 - INFO - Action - Tool execution successful: strings_to_chars_to_int
+2025-10-27 00:25:14,857 - INFO - Memory - Storing tool call: strings_to_chars_to_int
+2025-10-27 00:25:14,857 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:25:14,857 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:25:14,857 - INFO - Action - Function call result: [73, 78, 68, 73, 65]
+2025-10-27 00:25:14,857 - INFO - Memory - Storing iteration 1
+2025-10-27 00:25:14,858 - INFO - __main__ - Action result: ['73', '78', '68', '73', '65']
+2025-10-27 00:25:14,858 - INFO - __main__ - 
+--- Iteration 2 ---
+2025-10-27 00:25:14,858 - INFO - Perception - Observing environment
+2025-10-27 00:25:14,858 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:25:14,858 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:25:14,858 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:25:14,858 - INFO - Decision_Making - Generating decision
+2025-10-27 00:25:14,861 - INFO - Decision_Making - Input analysis complete: 5 signals, 5 hints
+2025-10-27 00:25:14,861 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 1, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters', "Last result: ['73', '78', '68', '73', '65']", 'Most used function: strings_to_chars_to_int (2 times)'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:25:14,861 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:25:15,485 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: int_list_to_exponential_sum|73|78|68|73|65...
+2025-10-27 00:25:15,486 - INFO - __main__ - Decision type: function_call
+2025-10-27 00:25:15,486 - INFO - __main__ - Decision data: {'function_name': 'int_list_to_exponential_sum', 'arguments': {'int_list': [73]}}
+2025-10-27 00:25:15,486 - INFO - __main__ - Executing action...
+2025-10-27 00:25:15,487 - INFO - Action - Executing decision: function_call
+2025-10-27 00:25:15,487 - INFO - Memory - Stored decision: function_call
+2025-10-27 00:25:15,487 - INFO - Action - Executing tool: int_list_to_exponential_sum with arguments: {'int_list': [73]}
+2025-10-27 00:25:15,492 - INFO - Action - Tool execution successful: int_list_to_exponential_sum
+2025-10-27 00:25:15,492 - INFO - Memory - Storing tool call: int_list_to_exponential_sum
+2025-10-27 00:25:15,493 - INFO - Memory - Tracked method call: tools.int_list_to_exponential_sum
+2025-10-27 00:25:15,494 - INFO - Memory - Tracked method call: tools.int_list_to_exponential_sum
+2025-10-27 00:25:15,494 - INFO - Action - Function call result: 5.052393630276104e31
+2025-10-27 00:25:15,494 - INFO - Memory - Storing iteration 2
+2025-10-27 00:25:15,495 - INFO - __main__ - Action result: ['5.052393630276104e31']
+2025-10-27 00:25:15,495 - INFO - __main__ - 
+--- Iteration 3 ---
+2025-10-27 00:25:15,495 - INFO - Perception - Observing environment
+2025-10-27 00:25:15,495 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:25:15,495 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:25:15,495 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:25:15,495 - INFO - Decision_Making - Generating decision
+2025-10-27 00:25:15,496 - INFO - Decision_Making - Input analysis complete: 5 signals, 5 hints
+2025-10-27 00:25:15,496 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 2, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters', "Last result: ['5.052393630276104e31']", 'Most used function: strings_to_chars_to_int (2 times)'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:25:15,496 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:25:16,065 - INFO - Decision_Making - Decision generated: FINAL_ANSWER: [5.052393630276104e31]...
+2025-10-27 00:25:16,066 - INFO - __main__ - Decision type: final_answer
+2025-10-27 00:25:16,066 - INFO - __main__ - Decision data: {'answer': '[5.052393630276104e31]'}
+2025-10-27 00:25:16,066 - INFO - __main__ - Executing action...
+2025-10-27 00:25:16,067 - INFO - Action - Executing decision: final_answer
+2025-10-27 00:25:16,067 - INFO - Memory - Stored decision: final_answer
+2025-10-27 00:25:16,067 - INFO - Action - Handling final answer
+2025-10-27 00:25:16,067 - INFO - Action - Final answer: [5.052393630276104e31]
+2025-10-27 00:25:16,067 - INFO - Memory - Storing iteration 3
+2025-10-27 00:25:16,068 - INFO - __main__ - Action result: {'final_answer': '[5.052393630276104e31]', 'needs_visualization': False}
+2025-10-27 00:25:16,068 - INFO - __main__ - Final answer reached
+2025-10-27 00:25:16,069 - INFO - __main__ - Final result: [5.052393630276104e31]
+2025-10-27 00:25:16,193 - INFO - Memory - === Agent Execution Complete ===
+2025-10-27 00:26:21,964 - INFO - __main__ - Initializing Agent System
+2025-10-27 00:26:21,964 - INFO - Perception - Perception module initialized
+2025-10-27 00:26:21,964 - INFO - Memory - Comprehensive Memory module initialized
+2025-10-27 00:26:21,964 - INFO - Decision_Making - Decision-Making module initialized
+2025-10-27 00:26:21,964 - INFO - __main__ - Agent System initialized successfully
+2025-10-27 00:26:21,965 - INFO - __main__ - === Starting Agent Execution ===
+2025-10-27 00:26:21,965 - INFO - __main__ - Establishing connection to MCP server...
+2025-10-27 00:26:21,980 - INFO - __main__ - Connection established, creating session...
+2025-10-27 00:26:21,981 - INFO - __main__ - Session created, initializing...
+2025-10-27 00:26:22,729 - INFO - Action - Action module initialized
+2025-10-27 00:26:22,730 - INFO - __main__ - Requesting tool list...
+2025-10-27 00:26:22,734 - INFO - __main__ - Retrieved 23 tools
+2025-10-27 00:26:22,735 - INFO - __main__ - Processing user input through perception...
+2025-10-27 00:26:22,735 - INFO - Perception - Processing user input: Find the ASCII values of characters in INDIA and t...
+2025-10-27 00:26:22,735 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:26:22,735 - INFO - Perception - Input processed: Type=mathematical
+2025-10-27 00:26:22,735 - INFO - Memory - Stored prompt facts
+2025-10-27 00:26:22,735 - INFO - __main__ - 
+--- Iteration 1 ---
+2025-10-27 00:26:22,735 - INFO - Perception - Observing environment
+2025-10-27 00:26:22,736 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:26:22,736 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:26:22,736 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:26:22,736 - INFO - Decision_Making - Generating decision
+2025-10-27 00:26:22,736 - INFO - Decision_Making - Input analysis complete: 3 signals, 5 hints
+2025-10-27 00:26:22,736 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 0, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:26:22,736 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:26:23,501 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: strings_to_chars_to_int|INDIA...
+2025-10-27 00:26:23,501 - INFO - __main__ - Decision type: function_call
+2025-10-27 00:26:23,502 - INFO - __main__ - Decision data: {'function_name': 'strings_to_chars_to_int', 'arguments': {'string': 'INDIA'}}
+2025-10-27 00:26:23,502 - INFO - __main__ - Executing action...
+2025-10-27 00:26:23,503 - INFO - Action - Executing decision: function_call
+2025-10-27 00:26:23,503 - INFO - Memory - Stored decision: function_call
+2025-10-27 00:26:23,504 - INFO - Action - Executing tool: strings_to_chars_to_int with arguments: {'string': 'INDIA'}
+2025-10-27 00:26:23,509 - INFO - Action - Tool execution successful: strings_to_chars_to_int
+2025-10-27 00:26:23,509 - INFO - Memory - Storing tool call: strings_to_chars_to_int
+2025-10-27 00:26:23,509 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:26:23,510 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:26:23,510 - INFO - Action - Function call result: [73, 78, 68, 73, 65]
+2025-10-27 00:26:23,510 - INFO - Memory - Storing iteration 1
+2025-10-27 00:26:23,510 - INFO - __main__ - Action result: ['73', '78', '68', '73', '65']
+2025-10-27 00:26:23,510 - INFO - __main__ - 
+--- Iteration 2 ---
+2025-10-27 00:26:23,511 - INFO - Perception - Observing environment
+2025-10-27 00:26:23,511 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:26:23,511 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:26:23,511 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:26:23,511 - INFO - Decision_Making - Generating decision
+2025-10-27 00:26:23,511 - INFO - Decision_Making - Input analysis complete: 5 signals, 5 hints
+2025-10-27 00:26:23,511 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 1, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters', "Last result: ['73', '78', '68', '73', '65']", 'Most used function: strings_to_chars_to_int (2 times)'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:26:23,512 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:26:24,235 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: int_list_to_exponential_sum|[73, 78, 68, 73, 65]...
+2025-10-27 00:26:24,235 - INFO - __main__ - Decision type: function_call
+2025-10-27 00:26:24,235 - INFO - __main__ - Decision data: {'function_name': 'int_list_to_exponential_sum', 'arguments': {'int_list': [73, 78, 68, 73, 65]}}
+2025-10-27 00:26:24,235 - INFO - __main__ - Executing action...
+2025-10-27 00:26:24,236 - INFO - Action - Executing decision: function_call
+2025-10-27 00:26:24,236 - INFO - Memory - Stored decision: function_call
+2025-10-27 00:26:24,236 - INFO - Action - Executing tool: int_list_to_exponential_sum with arguments: {'int_list': [73, 78, 68, 73, 65]}
+2025-10-27 00:26:24,240 - INFO - Action - Tool execution successful: int_list_to_exponential_sum
+2025-10-27 00:26:24,241 - INFO - Memory - Storing tool call: int_list_to_exponential_sum
+2025-10-27 00:26:24,241 - INFO - Memory - Tracked method call: tools.int_list_to_exponential_sum
+2025-10-27 00:26:24,241 - INFO - Memory - Tracked method call: tools.int_list_to_exponential_sum
+2025-10-27 00:26:24,241 - INFO - Action - Function call result: 7.59982224609308e33
+2025-10-27 00:26:24,241 - INFO - Memory - Storing iteration 2
+2025-10-27 00:26:24,242 - INFO - __main__ - Action result: ['7.59982224609308e33']
+2025-10-27 00:26:24,242 - INFO - __main__ - 
+--- Iteration 3 ---
+2025-10-27 00:26:24,242 - INFO - Perception - Observing environment
+2025-10-27 00:26:24,242 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:26:24,242 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:26:24,242 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:26:24,243 - INFO - Decision_Making - Generating decision
+2025-10-27 00:26:24,243 - INFO - Decision_Making - Input analysis complete: 5 signals, 5 hints
+2025-10-27 00:26:24,243 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 2, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters', "Last result: ['7.59982224609308e33']", 'Most used function: strings_to_chars_to_int (2 times)'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:26:24,243 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:26:24,800 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: strings_to_chars_to_int|INDIA...
+2025-10-27 00:26:24,800 - INFO - __main__ - Decision type: function_call
+2025-10-27 00:26:24,801 - INFO - __main__ - Decision data: {'function_name': 'strings_to_chars_to_int', 'arguments': {'string': 'INDIA'}}
+2025-10-27 00:26:24,802 - INFO - __main__ - Executing action...
+2025-10-27 00:26:24,802 - INFO - Action - Executing decision: function_call
+2025-10-27 00:26:24,803 - INFO - Memory - Stored decision: function_call
+2025-10-27 00:26:24,803 - INFO - Action - Executing tool: strings_to_chars_to_int with arguments: {'string': 'INDIA'}
+2025-10-27 00:26:24,808 - INFO - Action - Tool execution successful: strings_to_chars_to_int
+2025-10-27 00:26:24,808 - INFO - Memory - Storing tool call: strings_to_chars_to_int
+2025-10-27 00:26:24,808 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:26:24,809 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:26:24,809 - INFO - Action - Function call result: [73, 78, 68, 73, 65]
+2025-10-27 00:26:24,809 - INFO - Memory - Storing iteration 3
+2025-10-27 00:26:24,809 - INFO - __main__ - Action result: ['73', '78', '68', '73', '65']
+2025-10-27 00:26:24,810 - WARNING - __main__ - Maximum iterations reached without final answer
+2025-10-27 00:26:24,937 - INFO - Memory - === Agent Execution Complete ===
+2025-10-27 00:26:38,929 - INFO - __main__ - Initializing Agent System
+2025-10-27 00:26:38,929 - INFO - Perception - Perception module initialized
+2025-10-27 00:26:38,930 - INFO - Memory - Comprehensive Memory module initialized
+2025-10-27 00:26:38,930 - INFO - Decision_Making - Decision-Making module initialized
+2025-10-27 00:26:38,930 - INFO - __main__ - Agent System initialized successfully
+2025-10-27 00:26:38,930 - INFO - __main__ - === Starting Agent Execution ===
+2025-10-27 00:26:38,931 - INFO - __main__ - Establishing connection to MCP server...
+2025-10-27 00:26:38,949 - INFO - __main__ - Connection established, creating session...
+2025-10-27 00:26:38,949 - INFO - __main__ - Session created, initializing...
+2025-10-27 00:26:39,720 - INFO - Action - Action module initialized
+2025-10-27 00:26:39,720 - INFO - __main__ - Requesting tool list...
+2025-10-27 00:26:39,723 - INFO - __main__ - Retrieved 23 tools
+2025-10-27 00:26:39,724 - INFO - __main__ - Processing user input through perception...
+2025-10-27 00:26:39,724 - INFO - Perception - Processing user input: Find the ASCII values of characters in INDIA and t...
+2025-10-27 00:26:39,724 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:26:39,724 - INFO - Perception - Input processed: Type=mathematical
+2025-10-27 00:26:39,724 - INFO - Memory - Stored prompt facts
+2025-10-27 00:26:39,724 - INFO - __main__ - 
+--- Iteration 1 ---
+2025-10-27 00:26:39,725 - INFO - Perception - Observing environment
+2025-10-27 00:26:39,725 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:26:39,725 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:26:39,725 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:26:39,725 - INFO - Decision_Making - Generating decision
+2025-10-27 00:26:39,725 - INFO - Decision_Making - Input analysis complete: 3 signals, 5 hints
+2025-10-27 00:26:39,725 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 0, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:26:39,726 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:26:40,336 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: strings_to_chars_to_int|INDIA...
+2025-10-27 00:26:40,337 - INFO - __main__ - Decision type: function_call
+2025-10-27 00:26:40,337 - INFO - __main__ - Decision data: {'function_name': 'strings_to_chars_to_int', 'arguments': {'string': 'INDIA'}}
+2025-10-27 00:26:40,338 - INFO - __main__ - Executing action...
+2025-10-27 00:26:40,338 - INFO - Action - Executing decision: function_call
+2025-10-27 00:26:40,338 - INFO - Memory - Stored decision: function_call
+2025-10-27 00:26:40,338 - INFO - Action - Executing tool: strings_to_chars_to_int with arguments: {'string': 'INDIA'}
+2025-10-27 00:26:40,346 - INFO - Action - Tool execution successful: strings_to_chars_to_int
+2025-10-27 00:26:40,348 - INFO - Memory - Storing tool call: strings_to_chars_to_int
+2025-10-27 00:26:40,349 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:26:40,349 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:26:40,350 - INFO - Action - Function call result: [73, 78, 68, 73, 65]
+2025-10-27 00:26:40,350 - INFO - Memory - Storing iteration 1
+2025-10-27 00:26:40,351 - INFO - __main__ - Action result: ['73', '78', '68', '73', '65']
+2025-10-27 00:26:40,351 - INFO - __main__ - 
+--- Iteration 2 ---
+2025-10-27 00:26:40,352 - INFO - Perception - Observing environment
+2025-10-27 00:26:40,352 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:26:40,352 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:26:40,353 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:26:40,353 - INFO - Decision_Making - Generating decision
+2025-10-27 00:26:40,353 - INFO - Decision_Making - Input analysis complete: 5 signals, 5 hints
+2025-10-27 00:26:40,353 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 1, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters', "Last result: ['73', '78', '68', '73', '65']", 'Most used function: strings_to_chars_to_int (2 times)'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:26:40,354 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:26:41,100 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: int_list_to_exponential_sum|73|78|68|73|65...
+2025-10-27 00:26:41,101 - INFO - __main__ - Decision type: function_call
+2025-10-27 00:26:41,101 - INFO - __main__ - Decision data: {'function_name': 'int_list_to_exponential_sum', 'arguments': {'int_list': [73]}}
+2025-10-27 00:26:41,101 - INFO - __main__ - Executing action...
+2025-10-27 00:26:41,101 - INFO - Action - Executing decision: function_call
+2025-10-27 00:26:41,101 - INFO - Memory - Stored decision: function_call
+2025-10-27 00:26:41,102 - INFO - Action - Executing tool: int_list_to_exponential_sum with arguments: {'int_list': [73]}
+2025-10-27 00:26:41,106 - INFO - Action - Tool execution successful: int_list_to_exponential_sum
+2025-10-27 00:26:41,107 - INFO - Memory - Storing tool call: int_list_to_exponential_sum
+2025-10-27 00:26:41,107 - INFO - Memory - Tracked method call: tools.int_list_to_exponential_sum
+2025-10-27 00:26:41,107 - INFO - Memory - Tracked method call: tools.int_list_to_exponential_sum
+2025-10-27 00:26:41,107 - INFO - Action - Function call result: 5.052393630276104e31
+2025-10-27 00:26:41,107 - INFO - Memory - Storing iteration 2
+2025-10-27 00:26:41,107 - INFO - __main__ - Action result: ['5.052393630276104e31']
+2025-10-27 00:26:41,107 - INFO - __main__ - 
+--- Iteration 3 ---
+2025-10-27 00:26:41,108 - INFO - Perception - Observing environment
+2025-10-27 00:26:41,108 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:26:41,108 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:26:41,108 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:26:41,108 - INFO - Decision_Making - Generating decision
+2025-10-27 00:26:41,108 - INFO - Decision_Making - Input analysis complete: 5 signals, 5 hints
+2025-10-27 00:26:41,108 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 2, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters', "Last result: ['5.052393630276104e31']", 'Most used function: strings_to_chars_to_int (2 times)'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:26:41,109 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:26:41,745 - INFO - Decision_Making - Decision generated: FINAL_ANSWER: [5.052393630276104e31]...
+2025-10-27 00:26:41,745 - INFO - __main__ - Decision type: final_answer
+2025-10-27 00:26:41,746 - INFO - __main__ - Decision data: {'answer': '[5.052393630276104e31]'}
+2025-10-27 00:26:41,746 - INFO - __main__ - Executing action...
+2025-10-27 00:26:41,747 - INFO - Action - Executing decision: final_answer
+2025-10-27 00:26:41,748 - INFO - Memory - Stored decision: final_answer
+2025-10-27 00:26:41,748 - INFO - Action - Handling final answer
+2025-10-27 00:26:41,749 - INFO - Action - Final answer: [5.052393630276104e31]
+2025-10-27 00:26:41,749 - INFO - Memory - Storing iteration 3
+2025-10-27 00:26:41,750 - INFO - __main__ - Action result: {'final_answer': '[5.052393630276104e31]', 'needs_visualization': False}
+2025-10-27 00:26:41,750 - INFO - __main__ - Final answer reached
+2025-10-27 00:26:41,752 - INFO - __main__ - Final result: [5.052393630276104e31]
+2025-10-27 00:26:41,752 - INFO - __main__ - Executing final visualization with TSAI text...
+2025-10-27 00:26:41,752 - INFO - Action - Executing visualization
+2025-10-27 00:26:41,753 - INFO - Action - Executing tool: draw_rectangle_with_turtle with arguments: {'width': 400, 'height': 150, 'text': 'TSAI'}
+2025-10-27 00:26:57,087 - INFO - Action - Tool execution successful: draw_rectangle_with_turtle
+2025-10-27 00:26:57,088 - INFO - Memory - Storing tool call: draw_rectangle_with_turtle
+2025-10-27 00:26:57,088 - INFO - Memory - Tracked method call: tools.draw_rectangle_with_turtle
+2025-10-27 00:26:57,266 - INFO - Memory - === Agent Execution Complete ===
+2025-10-27 00:33:43,523 - INFO - __main__ - Initializing Agent System
+2025-10-27 00:33:43,525 - INFO - Perception - Perception module initialized
+2025-10-27 00:33:43,526 - INFO - Memory - Comprehensive Memory module initialized
+2025-10-27 00:33:43,527 - INFO - Decision_Making - Decision-Making module initialized
+2025-10-27 00:33:43,527 - INFO - __main__ - Agent System initialized successfully
+2025-10-27 00:33:43,528 - INFO - __main__ - === Starting Agent Execution ===
+2025-10-27 00:33:43,529 - INFO - __main__ - Establishing connection to MCP server...
+2025-10-27 00:33:43,629 - INFO - __main__ - Connection established, creating session...
+2025-10-27 00:33:43,632 - INFO - __main__ - Session created, initializing...
+2025-10-27 00:33:47,357 - INFO - Action - Action module initialized
+2025-10-27 00:33:47,358 - INFO - __main__ - Requesting tool list...
+2025-10-27 00:33:47,378 - INFO - __main__ - Retrieved 23 tools
+2025-10-27 00:33:47,384 - INFO - __main__ - Processing user input through perception...
+2025-10-27 00:33:47,389 - INFO - Perception - Processing user input: Find the ASCII values of characters in INDIA and t...
+2025-10-27 00:33:47,392 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:33:47,409 - INFO - Perception - Input processed: Type=mathematical
+2025-10-27 00:33:47,411 - INFO - Memory - Stored prompt facts
+2025-10-27 00:33:47,412 - INFO - __main__ - 
+--- Iteration 1 ---
+2025-10-27 00:33:47,415 - INFO - Perception - Observing environment
+2025-10-27 00:33:47,416 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:33:47,419 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:33:47,421 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:33:47,424 - INFO - Decision_Making - Generating decision
+2025-10-27 00:33:47,426 - INFO - Decision_Making - Input analysis complete: 3 signals, 5 hints
+2025-10-27 00:33:47,427 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 0, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:33:47,430 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:33:48,263 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: strings_to_chars_to_int|INDIA...
+2025-10-27 00:33:48,264 - INFO - __main__ - Decision type: function_call
+2025-10-27 00:33:48,264 - INFO - __main__ - Decision data: {'function_name': 'strings_to_chars_to_int', 'arguments': {'string': 'INDIA'}}
+2025-10-27 00:33:48,264 - INFO - __main__ - Executing action...
+2025-10-27 00:33:48,265 - INFO - Action - Executing decision: function_call
+2025-10-27 00:33:48,265 - INFO - Memory - Stored decision: function_call
+2025-10-27 00:33:48,265 - INFO - Action - Executing tool: strings_to_chars_to_int with arguments: {'string': 'INDIA'}
+2025-10-27 00:33:48,289 - INFO - Action - Tool execution successful: strings_to_chars_to_int
+2025-10-27 00:33:48,291 - INFO - Memory - Storing tool call: strings_to_chars_to_int
+2025-10-27 00:33:48,293 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:33:48,294 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:33:48,295 - INFO - Action - Function call result: [73, 78, 68, 73, 65]
+2025-10-27 00:33:48,295 - INFO - Memory - Storing iteration 1
+2025-10-27 00:33:48,296 - INFO - __main__ - Action result: ['73', '78', '68', '73', '65']
+2025-10-27 00:33:48,297 - INFO - __main__ - 
+--- Iteration 2 ---
+2025-10-27 00:33:48,298 - INFO - Perception - Observing environment
+2025-10-27 00:33:48,299 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:33:48,300 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:33:48,301 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:33:48,302 - INFO - Decision_Making - Generating decision
+2025-10-27 00:33:48,303 - INFO - Decision_Making - Input analysis complete: 5 signals, 5 hints
+2025-10-27 00:33:48,304 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 1, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters', "Last result: ['73', '78', '68', '73', '65']", 'Most used function: strings_to_chars_to_int (2 times)'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:33:48,306 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:33:48,917 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: int_list_to_exponential_sum|[73, 78, 68, 73, 65]...
+2025-10-27 00:33:48,918 - INFO - __main__ - Decision type: function_call
+2025-10-27 00:33:48,920 - INFO - __main__ - Decision data: {'function_name': 'int_list_to_exponential_sum', 'arguments': {'int_list': [73, 78, 68, 73, 65]}}
+2025-10-27 00:33:48,923 - INFO - __main__ - Executing action...
+2025-10-27 00:33:48,924 - INFO - Action - Executing decision: function_call
+2025-10-27 00:33:48,928 - INFO - Memory - Stored decision: function_call
+2025-10-27 00:33:48,931 - INFO - Action - Executing tool: int_list_to_exponential_sum with arguments: {'int_list': [73, 78, 68, 73, 65]}
+2025-10-27 00:33:48,975 - INFO - Action - Tool execution successful: int_list_to_exponential_sum
+2025-10-27 00:33:48,980 - INFO - Memory - Storing tool call: int_list_to_exponential_sum
+2025-10-27 00:33:48,982 - INFO - Memory - Tracked method call: tools.int_list_to_exponential_sum
+2025-10-27 00:33:48,984 - INFO - Memory - Tracked method call: tools.int_list_to_exponential_sum
+2025-10-27 00:33:48,985 - INFO - Action - Function call result: 7.59982224609308e33
+2025-10-27 00:33:48,995 - INFO - Memory - Storing iteration 2
+2025-10-27 00:33:49,013 - INFO - __main__ - Action result: ['7.59982224609308e33']
+2025-10-27 00:33:49,014 - INFO - __main__ - 
+--- Iteration 3 ---
+2025-10-27 00:33:49,032 - INFO - Perception - Observing environment
+2025-10-27 00:33:49,035 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:33:49,039 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:33:49,040 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:33:49,041 - INFO - Decision_Making - Generating decision
+2025-10-27 00:33:49,050 - INFO - Decision_Making - Input analysis complete: 5 signals, 5 hints
+2025-10-27 00:33:49,052 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 2, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters', "Last result: ['7.59982224609308e33']", 'Most used function: strings_to_chars_to_int (2 times)'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:33:49,056 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:33:49,597 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: strings_to_chars_to_int|INDIA...
+2025-10-27 00:33:49,598 - INFO - __main__ - Decision type: function_call
+2025-10-27 00:33:49,599 - INFO - __main__ - Decision data: {'function_name': 'strings_to_chars_to_int', 'arguments': {'string': 'INDIA'}}
+2025-10-27 00:33:49,600 - INFO - __main__ - Executing action...
+2025-10-27 00:33:49,601 - INFO - Action - Executing decision: function_call
+2025-10-27 00:33:49,601 - INFO - Memory - Stored decision: function_call
+2025-10-27 00:33:49,602 - INFO - Action - Executing tool: strings_to_chars_to_int with arguments: {'string': 'INDIA'}
+2025-10-27 00:33:49,615 - INFO - Action - Tool execution successful: strings_to_chars_to_int
+2025-10-27 00:33:49,616 - INFO - Memory - Storing tool call: strings_to_chars_to_int
+2025-10-27 00:33:49,618 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:33:49,619 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:33:49,622 - INFO - Action - Function call result: [73, 78, 68, 73, 65]
+2025-10-27 00:33:49,624 - INFO - Memory - Storing iteration 3
+2025-10-27 00:33:49,625 - INFO - __main__ - Action result: ['73', '78', '68', '73', '65']
+2025-10-27 00:33:49,626 - INFO - __main__ - 
+--- Iteration 4 ---
+2025-10-27 00:33:49,627 - INFO - Perception - Observing environment
+2025-10-27 00:33:49,628 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:33:49,628 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:33:49,629 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:33:49,631 - INFO - Decision_Making - Generating decision
+2025-10-27 00:33:49,632 - INFO - Decision_Making - Input analysis complete: 5 signals, 5 hints
+2025-10-27 00:33:49,633 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 3, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters', "Last result: ['73', '78', '68', '73', '65']", 'Most used function: strings_to_chars_to_int (4 times)'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:33:49,634 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:33:50,550 - INFO - Decision_Making - Decision generated: I have already obtained the ASCII values of the characters in INDIA as [73, 78, 68, 73, 65]. Now, I ...
+2025-10-27 00:33:50,551 - INFO - __main__ - Decision type: function_call
+2025-10-27 00:33:50,552 - INFO - __main__ - Decision data: {'function_name': 'int_list_to_exponential_sum', 'arguments': {'int_list': [73, 78, 68, 73, 65]}}
+2025-10-27 00:33:50,553 - INFO - __main__ - Executing action...
+2025-10-27 00:33:50,554 - INFO - Action - Executing decision: function_call
+2025-10-27 00:33:50,556 - INFO - Memory - Stored decision: function_call
+2025-10-27 00:33:50,557 - INFO - Action - Executing tool: int_list_to_exponential_sum with arguments: {'int_list': [73, 78, 68, 73, 65]}
+2025-10-27 00:33:50,571 - INFO - Action - Tool execution successful: int_list_to_exponential_sum
+2025-10-27 00:33:50,573 - INFO - Memory - Storing tool call: int_list_to_exponential_sum
+2025-10-27 00:33:50,573 - INFO - Memory - Tracked method call: tools.int_list_to_exponential_sum
+2025-10-27 00:33:50,575 - INFO - Memory - Tracked method call: tools.int_list_to_exponential_sum
+2025-10-27 00:33:50,575 - INFO - Action - Function call result: 7.59982224609308e33
+2025-10-27 00:33:50,577 - INFO - Memory - Storing iteration 4
+2025-10-27 00:33:50,577 - INFO - __main__ - Action result: ['7.59982224609308e33']
+2025-10-27 00:33:50,578 - INFO - __main__ - 
+--- Iteration 5 ---
+2025-10-27 00:33:50,579 - INFO - Perception - Observing environment
+2025-10-27 00:33:50,582 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:33:50,591 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:33:50,597 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:33:50,599 - INFO - Decision_Making - Generating decision
+2025-10-27 00:33:50,600 - INFO - Decision_Making - Input analysis complete: 5 signals, 5 hints
+2025-10-27 00:33:50,601 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 4, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters', "Last result: ['7.59982224609308e33']", 'Most used function: strings_to_chars_to_int (4 times)'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:33:50,602 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:33:51,131 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: strings_to_chars_to_int|INDIA...
+2025-10-27 00:33:51,133 - INFO - __main__ - Decision type: function_call
+2025-10-27 00:33:51,134 - INFO - __main__ - Decision data: {'function_name': 'strings_to_chars_to_int', 'arguments': {'string': 'INDIA'}}
+2025-10-27 00:33:51,136 - INFO - __main__ - Executing action...
+2025-10-27 00:33:51,137 - INFO - Action - Executing decision: function_call
+2025-10-27 00:33:51,140 - INFO - Memory - Stored decision: function_call
+2025-10-27 00:33:51,145 - INFO - Action - Executing tool: strings_to_chars_to_int with arguments: {'string': 'INDIA'}
+2025-10-27 00:33:51,172 - INFO - Action - Tool execution successful: strings_to_chars_to_int
+2025-10-27 00:33:51,173 - INFO - Memory - Storing tool call: strings_to_chars_to_int
+2025-10-27 00:33:51,174 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:33:51,175 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:33:51,176 - INFO - Action - Function call result: [73, 78, 68, 73, 65]
+2025-10-27 00:33:51,177 - INFO - Memory - Storing iteration 5
+2025-10-27 00:33:51,178 - INFO - __main__ - Action result: ['73', '78', '68', '73', '65']
+2025-10-27 00:33:51,179 - WARNING - __main__ - Maximum iterations reached without final answer
+2025-10-27 00:33:51,648 - INFO - Memory - === Agent Execution Complete ===
+2025-10-27 00:34:36,726 - INFO - __main__ - Initializing Agent System
+2025-10-27 00:34:36,727 - INFO - Perception - Perception module initialized
+2025-10-27 00:34:36,728 - INFO - Memory - Comprehensive Memory module initialized
+2025-10-27 00:34:36,729 - INFO - Decision_Making - Decision-Making module initialized
+2025-10-27 00:34:36,730 - INFO - __main__ - Agent System initialized successfully
+2025-10-27 00:34:36,730 - INFO - __main__ - === Starting Agent Execution ===
+2025-10-27 00:34:36,731 - INFO - __main__ - Establishing connection to MCP server...
+2025-10-27 00:34:36,761 - INFO - __main__ - Connection established, creating session...
+2025-10-27 00:34:36,762 - INFO - __main__ - Session created, initializing...
+2025-10-27 00:34:39,214 - INFO - Action - Action module initialized
+2025-10-27 00:34:39,215 - INFO - __main__ - Requesting tool list...
+2025-10-27 00:34:39,223 - INFO - __main__ - Retrieved 23 tools
+2025-10-27 00:34:39,226 - INFO - __main__ - Processing user input through perception...
+2025-10-27 00:34:39,228 - INFO - Perception - Processing user input: Find the ASCII values of characters in INDIA and t...
+2025-10-27 00:34:39,229 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:34:39,230 - INFO - Perception - Input processed: Type=mathematical
+2025-10-27 00:34:39,231 - INFO - Memory - Stored prompt facts
+2025-10-27 00:34:39,232 - INFO - __main__ - 
+--- Iteration 1 ---
+2025-10-27 00:34:39,233 - INFO - Perception - Observing environment
+2025-10-27 00:34:39,234 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:34:39,235 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:34:39,235 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:34:39,236 - INFO - Decision_Making - Generating decision
+2025-10-27 00:34:39,236 - INFO - Decision_Making - Input analysis complete: 3 signals, 5 hints
+2025-10-27 00:34:39,237 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 0, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:34:39,237 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:34:39,903 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: strings_to_chars_to_int|INDIA...
+2025-10-27 00:34:39,903 - INFO - __main__ - Decision type: function_call
+2025-10-27 00:34:39,904 - INFO - __main__ - Decision data: {'function_name': 'strings_to_chars_to_int', 'arguments': {'string': 'INDIA'}}
+2025-10-27 00:34:39,904 - INFO - __main__ - Executing action...
+2025-10-27 00:34:39,905 - INFO - Action - Executing decision: function_call
+2025-10-27 00:34:39,905 - INFO - Memory - Stored decision: function_call
+2025-10-27 00:34:39,906 - INFO - Action - Executing tool: strings_to_chars_to_int with arguments: {'string': 'INDIA'}
+2025-10-27 00:34:39,934 - INFO - Action - Tool execution successful: strings_to_chars_to_int
+2025-10-27 00:34:39,935 - INFO - Memory - Storing tool call: strings_to_chars_to_int
+2025-10-27 00:34:39,936 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:34:39,937 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:34:39,938 - INFO - Action - Function call result: [73, 78, 68, 73, 65]
+2025-10-27 00:34:39,939 - INFO - Memory - Storing iteration 1
+2025-10-27 00:34:39,940 - INFO - __main__ - Action result: ['73', '78', '68', '73', '65']
+2025-10-27 00:34:39,943 - INFO - __main__ - 
+--- Iteration 2 ---
+2025-10-27 00:34:39,947 - INFO - Perception - Observing environment
+2025-10-27 00:34:39,948 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:34:39,950 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:34:39,951 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:34:39,951 - INFO - Decision_Making - Generating decision
+2025-10-27 00:34:39,952 - INFO - Decision_Making - Input analysis complete: 5 signals, 5 hints
+2025-10-27 00:34:39,954 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 1, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters', "Last result: ['73', '78', '68', '73', '65']", 'Most used function: strings_to_chars_to_int (2 times)'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:34:39,955 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:34:40,661 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: int_list_to_exponential_sum|73|78|68|73|65...
+2025-10-27 00:34:40,667 - INFO - __main__ - Decision type: function_call
+2025-10-27 00:34:40,668 - INFO - __main__ - Decision data: {'function_name': 'int_list_to_exponential_sum', 'arguments': {'int_list': [73]}}
+2025-10-27 00:34:40,670 - INFO - __main__ - Executing action...
+2025-10-27 00:34:40,672 - INFO - Action - Executing decision: function_call
+2025-10-27 00:34:40,677 - INFO - Memory - Stored decision: function_call
+2025-10-27 00:34:40,679 - INFO - Action - Executing tool: int_list_to_exponential_sum with arguments: {'int_list': [73]}
+2025-10-27 00:34:40,704 - INFO - Action - Tool execution successful: int_list_to_exponential_sum
+2025-10-27 00:34:40,706 - INFO - Memory - Storing tool call: int_list_to_exponential_sum
+2025-10-27 00:34:40,707 - INFO - Memory - Tracked method call: tools.int_list_to_exponential_sum
+2025-10-27 00:34:40,709 - INFO - Memory - Tracked method call: tools.int_list_to_exponential_sum
+2025-10-27 00:34:40,711 - INFO - Action - Function call result: 5.052393630276104e31
+2025-10-27 00:34:40,713 - INFO - Memory - Storing iteration 2
+2025-10-27 00:34:40,715 - INFO - __main__ - Action result: ['5.052393630276104e31']
+2025-10-27 00:34:40,717 - INFO - __main__ - 
+--- Iteration 3 ---
+2025-10-27 00:34:40,718 - INFO - Perception - Observing environment
+2025-10-27 00:34:40,720 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:34:40,721 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:34:40,723 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:34:40,724 - INFO - Decision_Making - Generating decision
+2025-10-27 00:34:40,725 - INFO - Decision_Making - Input analysis complete: 5 signals, 5 hints
+2025-10-27 00:34:40,727 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 2, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters', "Last result: ['5.052393630276104e31']", 'Most used function: strings_to_chars_to_int (2 times)'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:34:40,728 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:34:41,493 - INFO - Decision_Making - Decision generated: FINAL_ANSWER: [5.052393630276104e31]...
+2025-10-27 00:34:41,495 - INFO - __main__ - Decision type: final_answer
+2025-10-27 00:34:41,497 - INFO - __main__ - Decision data: {'answer': '[5.052393630276104e31]'}
+2025-10-27 00:34:41,498 - INFO - __main__ - Executing action...
+2025-10-27 00:34:41,499 - INFO - Action - Executing decision: final_answer
+2025-10-27 00:34:41,500 - INFO - Memory - Stored decision: final_answer
+2025-10-27 00:34:41,500 - INFO - Action - Handling final answer
+2025-10-27 00:34:41,500 - INFO - Action - Final answer: [5.052393630276104e31]
+2025-10-27 00:34:41,501 - INFO - Memory - Storing iteration 3
+2025-10-27 00:34:41,501 - INFO - __main__ - Action result: {'final_answer': '[5.052393630276104e31]', 'needs_visualization': False}
+2025-10-27 00:34:41,502 - INFO - __main__ - Final answer reached
+2025-10-27 00:34:41,510 - INFO - __main__ - Final result: [5.052393630276104e31]
+2025-10-27 00:34:41,512 - INFO - __main__ - Executing final visualization with TSAI text...
+2025-10-27 00:34:41,513 - INFO - Action - Executing visualization
+2025-10-27 00:34:41,514 - INFO - Action - Executing tool: draw_rectangle_with_turtle with arguments: {'width': 400, 'height': 150, 'text': 'TSAI'}
+2025-10-27 00:34:57,373 - INFO - Action - Tool execution successful: draw_rectangle_with_turtle
+2025-10-27 00:34:57,374 - INFO - Memory - Storing tool call: draw_rectangle_with_turtle
+2025-10-27 00:34:57,375 - INFO - Memory - Tracked method call: tools.draw_rectangle_with_turtle
+2025-10-27 00:34:57,593 - INFO - Memory - === Agent Execution Complete ===
+2025-10-27 00:36:07,564 - INFO - __main__ - Initializing Agent System
+2025-10-27 00:36:07,564 - INFO - Perception - Perception module initialized
+2025-10-27 00:36:07,564 - INFO - Memory - Comprehensive Memory module initialized
+2025-10-27 00:36:07,565 - INFO - Decision_Making - Decision-Making module initialized
+2025-10-27 00:36:07,565 - INFO - __main__ - Agent System initialized successfully
+2025-10-27 00:36:07,565 - INFO - __main__ - === Starting Agent Execution ===
+2025-10-27 00:36:07,565 - INFO - __main__ - Establishing connection to MCP server...
+2025-10-27 00:36:07,583 - INFO - __main__ - Connection established, creating session...
+2025-10-27 00:36:07,584 - INFO - __main__ - Session created, initializing...
+2025-10-27 00:36:08,416 - INFO - Action - Action module initialized
+2025-10-27 00:36:08,417 - INFO - __main__ - Requesting tool list...
+2025-10-27 00:36:08,421 - INFO - __main__ - Retrieved 23 tools
+2025-10-27 00:36:08,422 - INFO - __main__ - Processing user input through perception...
+2025-10-27 00:36:08,422 - INFO - Perception - Processing user input: Find the ASCII values of characters in INDIA and t...
+2025-10-27 00:36:08,422 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:36:08,422 - INFO - Perception - Input processed: Type=mathematical
+2025-10-27 00:36:08,422 - INFO - Memory - Stored prompt facts
+2025-10-27 00:36:08,422 - INFO - __main__ - 
+--- Iteration 1 ---
+2025-10-27 00:36:08,422 - INFO - Perception - Observing environment
+2025-10-27 00:36:08,422 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:36:08,422 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:36:08,422 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:36:08,423 - INFO - Decision_Making - Generating decision
+2025-10-27 00:36:08,423 - INFO - Decision_Making - Input analysis complete: 3 signals, 5 hints
+2025-10-27 00:36:08,423 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 0, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:36:08,423 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:36:09,017 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: strings_to_chars_to_int|INDIA...
+2025-10-27 00:36:09,018 - INFO - __main__ - Decision type: function_call
+2025-10-27 00:36:09,018 - INFO - __main__ - Decision data: {'function_name': 'strings_to_chars_to_int', 'arguments': {'string': 'INDIA'}}
+2025-10-27 00:36:09,018 - INFO - __main__ - Executing action...
+2025-10-27 00:36:09,018 - INFO - Action - Executing decision: function_call
+2025-10-27 00:36:09,018 - INFO - Memory - Stored decision: function_call
+2025-10-27 00:36:09,018 - INFO - Action - Executing tool: strings_to_chars_to_int with arguments: {'string': 'INDIA'}
+2025-10-27 00:36:09,022 - INFO - Action - Tool execution successful: strings_to_chars_to_int
+2025-10-27 00:36:09,023 - INFO - Memory - Storing tool call: strings_to_chars_to_int
+2025-10-27 00:36:09,023 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:36:09,023 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:36:09,023 - INFO - Action - Function call result: [73, 78, 68, 73, 65]
+2025-10-27 00:36:09,023 - INFO - Memory - Storing iteration 1
+2025-10-27 00:36:09,023 - INFO - __main__ - Action result: ['73', '78', '68', '73', '65']
+2025-10-27 00:36:09,023 - INFO - __main__ - 
+--- Iteration 2 ---
+2025-10-27 00:36:09,024 - INFO - Perception - Observing environment
+2025-10-27 00:36:09,024 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:36:09,024 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:36:09,024 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:36:09,024 - INFO - Decision_Making - Generating decision
+2025-10-27 00:36:09,024 - INFO - Decision_Making - Input analysis complete: 5 signals, 5 hints
+2025-10-27 00:36:09,024 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 1, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters', "Last result: ['73', '78', '68', '73', '65']", 'Most used function: strings_to_chars_to_int (2 times)'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:36:09,024 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:36:09,748 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: int_list_to_exponential_sum|[73, 78, 68, 73, 65]...
+2025-10-27 00:36:09,748 - INFO - __main__ - Decision type: function_call
+2025-10-27 00:36:09,748 - INFO - __main__ - Decision data: {'function_name': 'int_list_to_exponential_sum', 'arguments': {'int_list': [73, 78, 68, 73, 65]}}
+2025-10-27 00:36:09,748 - INFO - __main__ - Executing action...
+2025-10-27 00:36:09,748 - INFO - Action - Executing decision: function_call
+2025-10-27 00:36:09,748 - INFO - Memory - Stored decision: function_call
+2025-10-27 00:36:09,749 - INFO - Action - Executing tool: int_list_to_exponential_sum with arguments: {'int_list': [73, 78, 68, 73, 65]}
+2025-10-27 00:36:09,752 - INFO - Action - Tool execution successful: int_list_to_exponential_sum
+2025-10-27 00:36:09,752 - INFO - Memory - Storing tool call: int_list_to_exponential_sum
+2025-10-27 00:36:09,752 - INFO - Memory - Tracked method call: tools.int_list_to_exponential_sum
+2025-10-27 00:36:09,752 - INFO - Memory - Tracked method call: tools.int_list_to_exponential_sum
+2025-10-27 00:36:09,753 - INFO - Action - Function call result: 7.59982224609308e33
+2025-10-27 00:36:09,753 - INFO - Memory - Storing iteration 2
+2025-10-27 00:36:09,753 - INFO - __main__ - Action result: ['7.59982224609308e33']
+2025-10-27 00:36:09,753 - INFO - __main__ - 
+--- Iteration 3 ---
+2025-10-27 00:36:09,753 - INFO - Perception - Observing environment
+2025-10-27 00:36:09,753 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:36:09,753 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:36:09,753 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:36:09,753 - INFO - Decision_Making - Generating decision
+2025-10-27 00:36:09,754 - INFO - Decision_Making - Input analysis complete: 5 signals, 5 hints
+2025-10-27 00:36:09,754 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 2, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters', "Last result: ['7.59982224609308e33']", 'Most used function: strings_to_chars_to_int (2 times)'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:36:09,754 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:36:10,271 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: strings_to_chars_to_int|INDIA...
+2025-10-27 00:36:10,271 - INFO - __main__ - Decision type: function_call
+2025-10-27 00:36:10,271 - INFO - __main__ - Decision data: {'function_name': 'strings_to_chars_to_int', 'arguments': {'string': 'INDIA'}}
+2025-10-27 00:36:10,271 - INFO - __main__ - Executing action...
+2025-10-27 00:36:10,271 - INFO - Action - Executing decision: function_call
+2025-10-27 00:36:10,271 - INFO - Memory - Stored decision: function_call
+2025-10-27 00:36:10,272 - INFO - Action - Executing tool: strings_to_chars_to_int with arguments: {'string': 'INDIA'}
+2025-10-27 00:36:10,275 - INFO - Action - Tool execution successful: strings_to_chars_to_int
+2025-10-27 00:36:10,275 - INFO - Memory - Storing tool call: strings_to_chars_to_int
+2025-10-27 00:36:10,275 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:36:10,275 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:36:10,276 - INFO - Action - Function call result: [73, 78, 68, 73, 65]
+2025-10-27 00:36:10,276 - INFO - Memory - Storing iteration 3
+2025-10-27 00:36:10,276 - INFO - __main__ - Action result: ['73', '78', '68', '73', '65']
+2025-10-27 00:36:10,276 - INFO - __main__ - 
+--- Iteration 4 ---
+2025-10-27 00:36:10,276 - INFO - Perception - Observing environment
+2025-10-27 00:36:10,276 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:36:10,276 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:36:10,276 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:36:10,277 - INFO - Decision_Making - Generating decision
+2025-10-27 00:36:10,277 - INFO - Decision_Making - Input analysis complete: 5 signals, 5 hints
+2025-10-27 00:36:10,277 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 3, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters', "Last result: ['73', '78', '68', '73', '65']", 'Most used function: strings_to_chars_to_int (4 times)'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:36:10,277 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:36:11,359 - INFO - Decision_Making - Decision generated: The query asks to find the ASCII values of characters in INDIA and then return the sum of exponentia...
+2025-10-27 00:36:11,359 - INFO - __main__ - Decision type: function_call
+2025-10-27 00:36:11,360 - INFO - __main__ - Decision data: {'function_name': 'int_list_to_exponential_sum', 'arguments': {'int_list': [73, 78, 68, 73, 65]}}
+2025-10-27 00:36:11,360 - INFO - __main__ - Executing action...
+2025-10-27 00:36:11,360 - INFO - Action - Executing decision: function_call
+2025-10-27 00:36:11,360 - INFO - Memory - Stored decision: function_call
+2025-10-27 00:36:11,360 - INFO - Action - Executing tool: int_list_to_exponential_sum with arguments: {'int_list': [73, 78, 68, 73, 65]}
+2025-10-27 00:36:11,365 - INFO - Action - Tool execution successful: int_list_to_exponential_sum
+2025-10-27 00:36:11,365 - INFO - Memory - Storing tool call: int_list_to_exponential_sum
+2025-10-27 00:36:11,366 - INFO - Memory - Tracked method call: tools.int_list_to_exponential_sum
+2025-10-27 00:36:11,366 - INFO - Memory - Tracked method call: tools.int_list_to_exponential_sum
+2025-10-27 00:36:11,367 - INFO - Action - Function call result: 7.59982224609308e33
+2025-10-27 00:36:11,367 - INFO - Memory - Storing iteration 4
+2025-10-27 00:36:11,367 - INFO - __main__ - Action result: ['7.59982224609308e33']
+2025-10-27 00:36:11,367 - INFO - __main__ - 
+--- Iteration 5 ---
+2025-10-27 00:36:11,368 - INFO - Perception - Observing environment
+2025-10-27 00:36:11,368 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:36:11,368 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:36:11,368 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:36:11,368 - INFO - Decision_Making - Generating decision
+2025-10-27 00:36:11,368 - INFO - Decision_Making - Input analysis complete: 5 signals, 5 hints
+2025-10-27 00:36:11,368 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 4, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters', "Last result: ['7.59982224609308e33']", 'Most used function: strings_to_chars_to_int (4 times)'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:36:11,368 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:36:11,932 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: strings_to_chars_to_int|INDIA...
+2025-10-27 00:36:11,933 - INFO - __main__ - Decision type: function_call
+2025-10-27 00:36:11,933 - INFO - __main__ - Decision data: {'function_name': 'strings_to_chars_to_int', 'arguments': {'string': 'INDIA'}}
+2025-10-27 00:36:11,933 - INFO - __main__ - Executing action...
+2025-10-27 00:36:11,933 - INFO - Action - Executing decision: function_call
+2025-10-27 00:36:11,933 - INFO - Memory - Stored decision: function_call
+2025-10-27 00:36:11,933 - INFO - Action - Executing tool: strings_to_chars_to_int with arguments: {'string': 'INDIA'}
+2025-10-27 00:36:11,937 - INFO - Action - Tool execution successful: strings_to_chars_to_int
+2025-10-27 00:36:11,937 - INFO - Memory - Storing tool call: strings_to_chars_to_int
+2025-10-27 00:36:11,937 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:36:11,938 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:36:11,938 - INFO - Action - Function call result: [73, 78, 68, 73, 65]
+2025-10-27 00:36:11,938 - INFO - Memory - Storing iteration 5
+2025-10-27 00:36:11,938 - INFO - __main__ - Action result: ['73', '78', '68', '73', '65']
+2025-10-27 00:36:11,938 - WARNING - __main__ - Maximum iterations reached without final answer
+2025-10-27 00:36:12,094 - INFO - Memory - === Agent Execution Complete ===
+2025-10-27 00:36:49,385 - INFO - __main__ - Initializing Agent System
+2025-10-27 00:36:49,385 - INFO - Perception - Perception module initialized
+2025-10-27 00:36:49,385 - INFO - Memory - Comprehensive Memory module initialized
+2025-10-27 00:36:49,385 - INFO - Decision_Making - Decision-Making module initialized
+2025-10-27 00:36:49,386 - INFO - __main__ - Agent System initialized successfully
+2025-10-27 00:36:49,386 - INFO - __main__ - === Starting Agent Execution ===
+2025-10-27 00:36:49,386 - INFO - __main__ - Establishing connection to MCP server...
+2025-10-27 00:36:49,399 - INFO - __main__ - Connection established, creating session...
+2025-10-27 00:36:49,400 - INFO - __main__ - Session created, initializing...
+2025-10-27 00:36:50,274 - INFO - Action - Action module initialized
+2025-10-27 00:36:50,275 - INFO - __main__ - Requesting tool list...
+2025-10-27 00:36:50,278 - INFO - __main__ - Retrieved 23 tools
+2025-10-27 00:36:50,279 - INFO - __main__ - Processing user input through perception...
+2025-10-27 00:36:50,279 - INFO - Perception - Processing user input: Find the ASCII values of characters in INDIA and t...
+2025-10-27 00:36:50,279 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:36:50,279 - INFO - Perception - Input processed: Type=mathematical
+2025-10-27 00:36:50,279 - INFO - Memory - Stored prompt facts
+2025-10-27 00:36:50,280 - INFO - __main__ - 
+--- Iteration 1 ---
+2025-10-27 00:36:50,280 - INFO - Perception - Observing environment
+2025-10-27 00:36:50,280 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:36:50,280 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:36:50,280 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:36:50,280 - INFO - Decision_Making - Generating decision
+2025-10-27 00:36:50,280 - INFO - Decision_Making - Input analysis complete: 3 signals, 5 hints
+2025-10-27 00:36:50,280 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 0, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:36:50,280 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:36:50,935 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: strings_to_chars_to_int|INDIA...
+2025-10-27 00:36:50,936 - INFO - __main__ - Decision type: function_call
+2025-10-27 00:36:50,936 - INFO - __main__ - Decision data: {'function_name': 'strings_to_chars_to_int', 'arguments': {'string': 'INDIA'}}
+2025-10-27 00:36:50,936 - INFO - __main__ - Executing action...
+2025-10-27 00:36:50,936 - INFO - Action - Executing decision: function_call
+2025-10-27 00:36:50,937 - INFO - Memory - Stored decision: function_call
+2025-10-27 00:36:50,937 - INFO - Action - Executing tool: strings_to_chars_to_int with arguments: {'string': 'INDIA'}
+2025-10-27 00:36:50,942 - INFO - Action - Tool execution successful: strings_to_chars_to_int
+2025-10-27 00:36:50,942 - INFO - Memory - Storing tool call: strings_to_chars_to_int
+2025-10-27 00:36:50,942 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:36:50,942 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:36:50,942 - INFO - Action - Function call result: [73, 78, 68, 73, 65]
+2025-10-27 00:36:50,943 - INFO - Memory - Storing iteration 1
+2025-10-27 00:36:50,943 - INFO - __main__ - Action result: ['73', '78', '68', '73', '65']
+2025-10-27 00:36:50,943 - INFO - __main__ - 
+--- Iteration 2 ---
+2025-10-27 00:36:50,943 - INFO - Perception - Observing environment
+2025-10-27 00:36:50,943 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:36:50,943 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:36:50,943 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:36:50,943 - INFO - Decision_Making - Generating decision
+2025-10-27 00:36:50,943 - INFO - Decision_Making - Input analysis complete: 5 signals, 5 hints
+2025-10-27 00:36:50,943 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 1, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters', "Last result: ['73', '78', '68', '73', '65']", 'Most used function: strings_to_chars_to_int (2 times)'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:36:50,944 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:36:51,692 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: int_list_to_exponential_sum|73|78|68|73|65...
+2025-10-27 00:36:51,692 - INFO - __main__ - Decision type: function_call
+2025-10-27 00:36:51,693 - INFO - __main__ - Decision data: {'function_name': 'int_list_to_exponential_sum', 'arguments': {'int_list': [73]}}
+2025-10-27 00:36:51,693 - INFO - __main__ - Executing action...
+2025-10-27 00:36:51,693 - INFO - Action - Executing decision: function_call
+2025-10-27 00:36:51,693 - INFO - Memory - Stored decision: function_call
+2025-10-27 00:36:51,693 - INFO - Action - Executing tool: int_list_to_exponential_sum with arguments: {'int_list': [73]}
+2025-10-27 00:36:51,696 - INFO - Action - Tool execution successful: int_list_to_exponential_sum
+2025-10-27 00:36:51,697 - INFO - Memory - Storing tool call: int_list_to_exponential_sum
+2025-10-27 00:36:51,697 - INFO - Memory - Tracked method call: tools.int_list_to_exponential_sum
+2025-10-27 00:36:51,697 - INFO - Memory - Tracked method call: tools.int_list_to_exponential_sum
+2025-10-27 00:36:51,697 - INFO - Action - Function call result: 5.052393630276104e31
+2025-10-27 00:36:51,698 - INFO - Memory - Storing iteration 2
+2025-10-27 00:36:51,698 - INFO - __main__ - Action result: ['5.052393630276104e31']
+2025-10-27 00:36:51,699 - INFO - __main__ - Executing final visualization with TSAI text...
+2025-10-27 00:36:51,700 - INFO - Action - Executing visualization
+2025-10-27 00:36:51,700 - INFO - Action - Executing tool: draw_rectangle_with_turtle with arguments: {'width': 400, 'height': 150, 'text': 'TSAI'}
+2025-10-27 00:36:53,777 - INFO - Action - Tool execution successful: draw_rectangle_with_turtle
+2025-10-27 00:36:53,778 - INFO - Memory - Storing tool call: draw_rectangle_with_turtle
+2025-10-27 00:36:53,778 - INFO - Memory - Tracked method call: tools.draw_rectangle_with_turtle
+2025-10-27 00:36:53,986 - INFO - Memory - === Agent Execution Complete ===
+2025-10-27 00:37:29,223 - INFO - __main__ - Initializing Agent System
+2025-10-27 00:37:29,224 - INFO - Perception - Perception module initialized
+2025-10-27 00:37:29,224 - INFO - Memory - Comprehensive Memory module initialized
+2025-10-27 00:37:29,224 - INFO - Decision_Making - Decision-Making module initialized
+2025-10-27 00:37:29,224 - INFO - __main__ - Agent System initialized successfully
+2025-10-27 00:37:29,224 - INFO - __main__ - === Starting Agent Execution ===
+2025-10-27 00:37:29,224 - INFO - __main__ - Establishing connection to MCP server...
+2025-10-27 00:37:29,243 - INFO - __main__ - Connection established, creating session...
+2025-10-27 00:37:29,243 - INFO - __main__ - Session created, initializing...
+2025-10-27 00:37:30,130 - INFO - Action - Action module initialized
+2025-10-27 00:37:30,131 - INFO - __main__ - Requesting tool list...
+2025-10-27 00:37:30,135 - INFO - __main__ - Retrieved 23 tools
+2025-10-27 00:37:30,136 - INFO - __main__ - Processing user input through perception...
+2025-10-27 00:37:30,136 - INFO - Perception - Processing user input: Find the ASCII values of characters in INDIA and t...
+2025-10-27 00:37:30,136 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:37:30,136 - INFO - Perception - Input processed: Type=mathematical
+2025-10-27 00:37:30,136 - INFO - Memory - Stored prompt facts
+2025-10-27 00:37:30,137 - INFO - __main__ - 
+--- Iteration 1 ---
+2025-10-27 00:37:30,137 - INFO - Perception - Observing environment
+2025-10-27 00:37:30,137 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:37:30,137 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:37:30,137 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:37:30,137 - INFO - Decision_Making - Generating decision
+2025-10-27 00:37:30,137 - INFO - Decision_Making - Input analysis complete: 3 signals, 5 hints
+2025-10-27 00:37:30,138 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 0, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:37:30,138 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:37:30,711 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: strings_to_chars_to_int|INDIA...
+2025-10-27 00:37:30,711 - INFO - __main__ - Decision type: function_call
+2025-10-27 00:37:30,711 - INFO - __main__ - Decision data: {'function_name': 'strings_to_chars_to_int', 'arguments': {'string': 'INDIA'}}
+2025-10-27 00:37:30,711 - INFO - __main__ - Executing action...
+2025-10-27 00:37:30,711 - INFO - Action - Executing decision: function_call
+2025-10-27 00:37:30,711 - INFO - Memory - Stored decision: function_call
+2025-10-27 00:37:30,711 - INFO - Action - Executing tool: strings_to_chars_to_int with arguments: {'string': 'INDIA'}
+2025-10-27 00:37:30,715 - INFO - Action - Tool execution successful: strings_to_chars_to_int
+2025-10-27 00:37:30,716 - INFO - Memory - Storing tool call: strings_to_chars_to_int
+2025-10-27 00:37:30,717 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:37:30,717 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:37:30,718 - INFO - Action - Function call result: [73, 78, 68, 73, 65]
+2025-10-27 00:37:30,718 - INFO - Memory - Storing iteration 1
+2025-10-27 00:37:30,719 - INFO - __main__ - Action result: ['73', '78', '68', '73', '65']
+2025-10-27 00:37:30,720 - INFO - __main__ - 
+--- Iteration 2 ---
+2025-10-27 00:37:30,721 - INFO - Perception - Observing environment
+2025-10-27 00:37:30,721 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:37:30,721 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:37:30,722 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:37:30,722 - INFO - Decision_Making - Generating decision
+2025-10-27 00:37:30,722 - INFO - Decision_Making - Input analysis complete: 5 signals, 5 hints
+2025-10-27 00:37:30,722 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 1, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters', "Last result: ['73', '78', '68', '73', '65']", 'Most used function: strings_to_chars_to_int (2 times)'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:37:30,723 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:37:31,576 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: int_list_to_exponential_sum|[73, 78, 68, 73, 65]...
+2025-10-27 00:37:31,577 - INFO - __main__ - Decision type: function_call
+2025-10-27 00:37:31,577 - INFO - __main__ - Decision data: {'function_name': 'int_list_to_exponential_sum', 'arguments': {'int_list': [73, 78, 68, 73, 65]}}
+2025-10-27 00:37:31,577 - INFO - __main__ - Executing action...
+2025-10-27 00:37:31,577 - INFO - Action - Executing decision: function_call
+2025-10-27 00:37:31,578 - INFO - Memory - Stored decision: function_call
+2025-10-27 00:37:31,578 - INFO - Action - Executing tool: int_list_to_exponential_sum with arguments: {'int_list': [73, 78, 68, 73, 65]}
+2025-10-27 00:37:31,582 - INFO - Action - Tool execution successful: int_list_to_exponential_sum
+2025-10-27 00:37:31,582 - INFO - Memory - Storing tool call: int_list_to_exponential_sum
+2025-10-27 00:37:31,582 - INFO - Memory - Tracked method call: tools.int_list_to_exponential_sum
+2025-10-27 00:37:31,582 - INFO - Memory - Tracked method call: tools.int_list_to_exponential_sum
+2025-10-27 00:37:31,582 - INFO - Action - Function call result: 7.59982224609308e33
+2025-10-27 00:37:31,583 - INFO - Memory - Storing iteration 2
+2025-10-27 00:37:31,583 - INFO - __main__ - Action result: ['7.59982224609308e33']
+2025-10-27 00:37:31,583 - INFO - __main__ - Executing final visualization with TSAI text...
+2025-10-27 00:37:31,584 - INFO - Action - Executing visualization
+2025-10-27 00:37:31,584 - INFO - Action - Executing tool: draw_rectangle_with_turtle with arguments: {'width': 400, 'height': 150, 'text': 'TSAI'}
+2025-10-27 00:37:32,663 - INFO - Action - Tool execution successful: draw_rectangle_with_turtle
+2025-10-27 00:37:32,663 - INFO - Memory - Storing tool call: draw_rectangle_with_turtle
+2025-10-27 00:37:32,663 - INFO - Memory - Tracked method call: tools.draw_rectangle_with_turtle
+2025-10-27 00:37:34,685 - INFO - Memory - === Agent Execution Complete ===
+2025-10-27 00:38:18,397 - INFO - __main__ - Initializing Agent System
+2025-10-27 00:38:18,398 - INFO - Perception - Perception module initialized
+2025-10-27 00:38:18,398 - INFO - Memory - Comprehensive Memory module initialized
+2025-10-27 00:38:18,398 - INFO - Decision_Making - Decision-Making module initialized
+2025-10-27 00:38:18,398 - INFO - __main__ - Agent System initialized successfully
+2025-10-27 00:38:18,398 - INFO - __main__ - === Starting Agent Execution ===
+2025-10-27 00:38:18,398 - INFO - __main__ - Establishing connection to MCP server...
+2025-10-27 00:38:18,415 - INFO - __main__ - Connection established, creating session...
+2025-10-27 00:38:18,415 - INFO - __main__ - Session created, initializing...
+2025-10-27 00:38:19,235 - INFO - Action - Action module initialized
+2025-10-27 00:38:19,236 - INFO - __main__ - Requesting tool list...
+2025-10-27 00:38:19,240 - INFO - __main__ - Retrieved 23 tools
+2025-10-27 00:38:19,241 - INFO - __main__ - Processing user input through perception...
+2025-10-27 00:38:19,241 - INFO - Perception - Processing user input: Find the ASCII values of characters in INDIA and t...
+2025-10-27 00:38:19,241 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:38:19,241 - INFO - Perception - Input processed: Type=mathematical
+2025-10-27 00:38:19,242 - INFO - Memory - Stored prompt facts
+2025-10-27 00:38:19,242 - INFO - __main__ - 
+--- Iteration 1 ---
+2025-10-27 00:38:19,242 - INFO - Perception - Observing environment
+2025-10-27 00:38:19,242 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:38:19,242 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:38:19,242 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:38:19,242 - INFO - Decision_Making - Generating decision
+2025-10-27 00:38:19,242 - INFO - Decision_Making - Input analysis complete: 3 signals, 5 hints
+2025-10-27 00:38:19,242 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 0, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:38:19,242 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:38:19,898 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: strings_to_chars_to_int|INDIA...
+2025-10-27 00:38:19,899 - INFO - __main__ - Decision type: function_call
+2025-10-27 00:38:19,899 - INFO - __main__ - Decision data: {'function_name': 'strings_to_chars_to_int', 'arguments': {'string': 'INDIA'}}
+2025-10-27 00:38:19,899 - INFO - __main__ - Executing action...
+2025-10-27 00:38:19,899 - INFO - Action - Executing decision: function_call
+2025-10-27 00:38:19,899 - INFO - Memory - Stored decision: function_call
+2025-10-27 00:38:19,899 - INFO - Action - Executing tool: strings_to_chars_to_int with arguments: {'string': 'INDIA'}
+2025-10-27 00:38:19,905 - INFO - Action - Tool execution successful: strings_to_chars_to_int
+2025-10-27 00:38:19,905 - INFO - Memory - Storing tool call: strings_to_chars_to_int
+2025-10-27 00:38:19,905 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:38:19,905 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:38:19,906 - INFO - Action - Function call result: [73, 78, 68, 73, 65]
+2025-10-27 00:38:19,906 - INFO - Memory - Storing iteration 1
+2025-10-27 00:38:19,906 - INFO - __main__ - Action result: ['73', '78', '68', '73', '65']
+2025-10-27 00:38:19,907 - INFO - __main__ - 
+--- Iteration 2 ---
+2025-10-27 00:38:19,907 - INFO - Perception - Observing environment
+2025-10-27 00:38:19,907 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:38:19,907 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:38:19,907 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:38:19,907 - INFO - Decision_Making - Generating decision
+2025-10-27 00:38:19,907 - INFO - Decision_Making - Input analysis complete: 5 signals, 5 hints
+2025-10-27 00:38:19,907 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 1, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters', "Last result: ['73', '78', '68', '73', '65']", 'Most used function: strings_to_chars_to_int (2 times)'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:38:19,908 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:38:20,600 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: int_list_to_exponential_sum|[73, 78, 68, 73, 65]...
+2025-10-27 00:38:20,600 - INFO - __main__ - Decision type: function_call
+2025-10-27 00:38:20,601 - INFO - __main__ - Decision data: {'function_name': 'int_list_to_exponential_sum', 'arguments': {'int_list': [73, 78, 68, 73, 65]}}
+2025-10-27 00:38:20,601 - INFO - __main__ - Executing action...
+2025-10-27 00:38:20,601 - INFO - Action - Executing decision: function_call
+2025-10-27 00:38:20,602 - INFO - Memory - Stored decision: function_call
+2025-10-27 00:38:20,602 - INFO - Action - Executing tool: int_list_to_exponential_sum with arguments: {'int_list': [73, 78, 68, 73, 65]}
+2025-10-27 00:38:20,607 - INFO - Action - Tool execution successful: int_list_to_exponential_sum
+2025-10-27 00:38:20,607 - INFO - Memory - Storing tool call: int_list_to_exponential_sum
+2025-10-27 00:38:20,607 - INFO - Memory - Tracked method call: tools.int_list_to_exponential_sum
+2025-10-27 00:38:20,608 - INFO - Memory - Tracked method call: tools.int_list_to_exponential_sum
+2025-10-27 00:38:20,608 - INFO - Action - Function call result: 7.59982224609308e33
+2025-10-27 00:38:20,608 - INFO - Memory - Storing iteration 2
+2025-10-27 00:38:20,608 - INFO - __main__ - Action result: ['7.59982224609308e33']
+2025-10-27 00:38:20,608 - INFO - __main__ - Executing final visualization with TSAI text...
+2025-10-27 00:38:20,609 - INFO - Action - Executing visualization
+2025-10-27 00:38:20,609 - INFO - Action - Executing tool: draw_rectangle_with_turtle with arguments: {'width': 400, 'height': 150, 'text': 'TSAI'}
+2025-10-27 00:38:21,684 - INFO - Action - Tool execution successful: draw_rectangle_with_turtle
+2025-10-27 00:38:21,684 - INFO - Memory - Storing tool call: draw_rectangle_with_turtle
+2025-10-27 00:38:21,685 - INFO - Memory - Tracked method call: tools.draw_rectangle_with_turtle
+2025-10-27 00:38:23,701 - INFO - Memory - === Agent Execution Complete ===
+2025-10-27 00:41:53,277 - INFO - __main__ - Initializing Agent System
+2025-10-27 00:41:53,277 - INFO - Perception - Perception module initialized
+2025-10-27 00:41:53,277 - INFO - Memory - Comprehensive Memory module initialized
+2025-10-27 00:41:53,277 - INFO - Decision_Making - Decision-Making module initialized
+2025-10-27 00:41:53,278 - INFO - __main__ - Agent System initialized successfully
+2025-10-27 00:41:53,278 - INFO - __main__ - === Starting Agent Execution ===
+2025-10-27 00:41:53,278 - INFO - __main__ - Establishing connection to MCP server...
+2025-10-27 00:41:53,294 - INFO - __main__ - Connection established, creating session...
+2025-10-27 00:41:53,294 - INFO - __main__ - Session created, initializing...
+2025-10-27 00:41:54,143 - INFO - Action - Action module initialized
+2025-10-27 00:41:54,144 - INFO - __main__ - Requesting tool list...
+2025-10-27 00:41:54,148 - INFO - __main__ - Retrieved 23 tools
+2025-10-27 00:41:54,148 - INFO - __main__ - Processing user input through perception...
+2025-10-27 00:41:54,148 - INFO - Perception - Processing user input: Find the ASCII values of characters in INDIA and t...
+2025-10-27 00:41:54,149 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:41:54,149 - INFO - Perception - Input processed: Type=mathematical
+2025-10-27 00:41:54,149 - INFO - Memory - Stored prompt facts
+2025-10-27 00:41:54,149 - INFO - __main__ - 
+--- Iteration 1 ---
+2025-10-27 00:41:54,149 - INFO - Perception - Observing environment
+2025-10-27 00:41:54,149 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:41:54,150 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:41:54,150 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:41:54,150 - INFO - Decision_Making - Generating decision
+2025-10-27 00:41:54,150 - INFO - Decision_Making - Input analysis complete: 3 signals, 5 hints
+2025-10-27 00:41:54,150 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 0, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:41:54,150 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:41:54,784 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: strings_to_chars_to_int|INDIA...
+2025-10-27 00:41:54,784 - INFO - __main__ - Decision type: function_call
+2025-10-27 00:41:54,784 - INFO - __main__ - Decision data: {'function_name': 'strings_to_chars_to_int', 'arguments': {'string': 'INDIA'}}
+2025-10-27 00:41:54,784 - INFO - __main__ - Executing action...
+2025-10-27 00:41:54,784 - INFO - Action - Executing decision: function_call
+2025-10-27 00:41:54,785 - INFO - Memory - Stored decision: function_call
+2025-10-27 00:41:54,785 - INFO - Action - Executing tool: strings_to_chars_to_int with arguments: {'string': 'INDIA'}
+2025-10-27 00:41:54,790 - INFO - Action - Tool execution successful: strings_to_chars_to_int
+2025-10-27 00:41:54,790 - INFO - Memory - Storing tool call: strings_to_chars_to_int
+2025-10-27 00:41:54,791 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:41:54,791 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:41:54,791 - INFO - Action - Function call result: [73, 78, 68, 73, 65]
+2025-10-27 00:41:54,791 - INFO - Memory - Storing iteration 1
+2025-10-27 00:41:54,791 - INFO - __main__ - Action result: ['73', '78', '68', '73', '65']
+2025-10-27 00:41:54,791 - INFO - __main__ - 
+--- Iteration 2 ---
+2025-10-27 00:41:54,792 - INFO - Perception - Observing environment
+2025-10-27 00:41:54,792 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:41:54,792 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:41:54,792 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:41:54,792 - INFO - Decision_Making - Generating decision
+2025-10-27 00:41:54,792 - INFO - Decision_Making - Input analysis complete: 5 signals, 5 hints
+2025-10-27 00:41:54,792 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 1, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters', "Last result: ['73', '78', '68', '73', '65']", 'Most used function: strings_to_chars_to_int (2 times)'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:41:54,792 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:41:55,420 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: int_list_to_exponential_sum|['73', '78', '68', '73', '65']...
+2025-10-27 00:41:55,420 - ERROR - Decision_Making - Error in decision generation: invalid literal for int() with base 10: "'73'"
+2025-10-27 00:41:55,562 - ERROR - __main__ - Error in main execution: unhandled errors in a TaskGroup (1 sub-exception)
+2025-10-27 00:41:55,571 - INFO - Memory - === Agent Execution Complete ===
+2025-10-27 00:42:13,495 - INFO - __main__ - Initializing Agent System
+2025-10-27 00:42:13,496 - INFO - Perception - Perception module initialized
+2025-10-27 00:42:13,496 - INFO - Memory - Comprehensive Memory module initialized
+2025-10-27 00:42:13,496 - INFO - Decision_Making - Decision-Making module initialized
+2025-10-27 00:42:13,496 - INFO - __main__ - Agent System initialized successfully
+2025-10-27 00:42:13,497 - INFO - __main__ - === Starting Agent Execution ===
+2025-10-27 00:42:13,497 - INFO - __main__ - Establishing connection to MCP server...
+2025-10-27 00:42:13,516 - INFO - __main__ - Connection established, creating session...
+2025-10-27 00:42:13,517 - INFO - __main__ - Session created, initializing...
+2025-10-27 00:42:14,377 - INFO - Action - Action module initialized
+2025-10-27 00:42:14,377 - INFO - __main__ - Requesting tool list...
+2025-10-27 00:42:14,380 - INFO - __main__ - Retrieved 23 tools
+2025-10-27 00:42:14,381 - INFO - __main__ - Processing user input through perception...
+2025-10-27 00:42:14,381 - INFO - Perception - Processing user input: Find the ASCII values of characters in INDIA and t...
+2025-10-27 00:42:14,381 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:42:14,381 - INFO - Perception - Input processed: Type=mathematical
+2025-10-27 00:42:14,381 - INFO - Memory - Stored prompt facts
+2025-10-27 00:42:14,381 - INFO - __main__ - 
+--- Iteration 1 ---
+2025-10-27 00:42:14,381 - INFO - Perception - Observing environment
+2025-10-27 00:42:14,382 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:42:14,382 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:42:14,382 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:42:14,382 - INFO - Decision_Making - Generating decision
+2025-10-27 00:42:14,382 - INFO - Decision_Making - Input analysis complete: 3 signals, 5 hints
+2025-10-27 00:42:14,382 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 0, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:42:14,383 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:42:14,959 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: strings_to_chars_to_int|INDIA...
+2025-10-27 00:42:14,960 - INFO - __main__ - Decision type: function_call
+2025-10-27 00:42:14,960 - INFO - __main__ - Decision data: {'function_name': 'strings_to_chars_to_int', 'arguments': {'string': 'INDIA'}}
+2025-10-27 00:42:14,960 - INFO - __main__ - Executing action...
+2025-10-27 00:42:14,960 - INFO - Action - Executing decision: function_call
+2025-10-27 00:42:14,960 - INFO - Memory - Stored decision: function_call
+2025-10-27 00:42:14,960 - INFO - Action - Executing tool: strings_to_chars_to_int with arguments: {'string': 'INDIA'}
+2025-10-27 00:42:14,965 - INFO - Action - Tool execution successful: strings_to_chars_to_int
+2025-10-27 00:42:14,965 - INFO - Memory - Storing tool call: strings_to_chars_to_int
+2025-10-27 00:42:14,965 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:42:14,965 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:42:14,965 - INFO - Action - Function call result: [73, 78, 68, 73, 65]
+2025-10-27 00:42:14,966 - INFO - Memory - Storing iteration 1
+2025-10-27 00:42:14,966 - INFO - __main__ - Action result: ['73', '78', '68', '73', '65']
+2025-10-27 00:42:14,966 - INFO - __main__ - 
+--- Iteration 2 ---
+2025-10-27 00:42:14,966 - INFO - Perception - Observing environment
+2025-10-27 00:42:14,966 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:42:14,966 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:42:14,967 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:42:14,967 - INFO - Decision_Making - Generating decision
+2025-10-27 00:42:14,967 - INFO - Decision_Making - Input analysis complete: 5 signals, 5 hints
+2025-10-27 00:42:14,967 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 1, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters', "Last result: ['73', '78', '68', '73', '65']", 'Most used function: strings_to_chars_to_int (2 times)'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:42:14,967 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:42:15,580 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: int_list_to_exponential_sum|['73', '78', '68', '73', '65']...
+2025-10-27 00:42:15,580 - INFO - __main__ - Decision type: function_call
+2025-10-27 00:42:15,580 - INFO - __main__ - Decision data: {'function_name': 'int_list_to_exponential_sum', 'arguments': {'int_list': [73, 78, 68, 73, 65]}}
+2025-10-27 00:42:15,580 - INFO - __main__ - Executing action...
+2025-10-27 00:42:15,580 - INFO - Action - Executing decision: function_call
+2025-10-27 00:42:15,581 - INFO - Memory - Stored decision: function_call
+2025-10-27 00:42:15,581 - INFO - Action - Executing tool: int_list_to_exponential_sum with arguments: {'int_list': [73, 78, 68, 73, 65]}
+2025-10-27 00:42:15,585 - INFO - Action - Tool execution successful: int_list_to_exponential_sum
+2025-10-27 00:42:15,586 - INFO - Memory - Storing tool call: int_list_to_exponential_sum
+2025-10-27 00:42:15,586 - INFO - Memory - Tracked method call: tools.int_list_to_exponential_sum
+2025-10-27 00:42:15,586 - INFO - Memory - Tracked method call: tools.int_list_to_exponential_sum
+2025-10-27 00:42:15,586 - INFO - Action - Function call result: 7.59982224609308e33
+2025-10-27 00:42:15,587 - INFO - Memory - Storing iteration 2
+2025-10-27 00:42:15,587 - INFO - __main__ - Action result: ['7.59982224609308e33']
+2025-10-27 00:42:15,587 - INFO - __main__ - Executing final visualization with TSAI text...
+2025-10-27 00:42:15,587 - INFO - Action - Executing visualization
+2025-10-27 00:42:15,587 - INFO - Action - Executing tool: draw_rectangle_with_turtle with arguments: {'width': 400, 'height': 150, 'text': 'TSAI'}
+2025-10-27 00:42:25,670 - INFO - Action - Tool execution successful: draw_rectangle_with_turtle
+2025-10-27 00:42:25,671 - INFO - Memory - Storing tool call: draw_rectangle_with_turtle
+2025-10-27 00:42:25,671 - INFO - Memory - Tracked method call: tools.draw_rectangle_with_turtle
+2025-10-27 00:42:27,692 - INFO - Memory - === Agent Execution Complete ===
+2025-10-27 00:47:00,402 - INFO - __main__ - Initializing Agent System
+2025-10-27 00:47:00,405 - INFO - Perception - Perception module initialized
+2025-10-27 00:47:00,407 - INFO - Memory - Comprehensive Memory module initialized
+2025-10-27 00:47:00,408 - INFO - Decision_Making - Decision-Making module initialized
+2025-10-27 00:47:00,410 - INFO - __main__ - Agent System initialized successfully
+2025-10-27 00:47:00,411 - INFO - __main__ - === Starting Agent Execution ===
+2025-10-27 00:47:00,415 - INFO - __main__ - Establishing connection to MCP server...
+2025-10-27 00:47:00,493 - INFO - __main__ - Connection established, creating session...
+2025-10-27 00:47:00,495 - INFO - __main__ - Session created, initializing...
+2025-10-27 00:47:04,226 - INFO - Action - Action module initialized
+2025-10-27 00:47:04,227 - INFO - __main__ - Requesting tool list...
+2025-10-27 00:47:04,241 - INFO - __main__ - Retrieved 23 tools
+2025-10-27 00:47:04,248 - INFO - __main__ - Processing user input through perception...
+2025-10-27 00:47:04,250 - INFO - Perception - Processing user input: Find the ASCII values of characters in INDIA and t...
+2025-10-27 00:47:04,251 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:47:04,253 - INFO - Perception - Input processed: Type=mathematical
+2025-10-27 00:47:04,254 - INFO - Memory - Stored prompt facts
+2025-10-27 00:47:04,255 - INFO - __main__ - 
+--- Iteration 1 ---
+2025-10-27 00:47:04,256 - INFO - Perception - Observing environment
+2025-10-27 00:47:04,257 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:47:04,258 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:47:04,259 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:47:04,260 - INFO - Decision_Making - Generating decision
+2025-10-27 00:47:04,261 - INFO - Decision_Making - Input analysis complete: 3 signals, 5 hints
+2025-10-27 00:47:04,262 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 0, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:47:04,264 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:47:05,039 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: strings_to_chars_to_int|INDIA...
+2025-10-27 00:47:05,040 - INFO - __main__ - Decision type: function_call
+2025-10-27 00:47:05,041 - INFO - __main__ - Decision data: {'function_name': 'strings_to_chars_to_int', 'arguments': {'string': 'INDIA'}}
+2025-10-27 00:47:05,041 - INFO - __main__ - Executing action...
+2025-10-27 00:47:05,042 - INFO - Action - Executing decision: function_call
+2025-10-27 00:47:05,043 - INFO - Memory - Stored decision: function_call
+2025-10-27 00:47:05,043 - INFO - Action - Executing tool: strings_to_chars_to_int with arguments: {'string': 'INDIA'}
+2025-10-27 00:47:05,060 - INFO - Action - Tool execution successful: strings_to_chars_to_int
+2025-10-27 00:47:05,060 - INFO - Memory - Storing tool call: strings_to_chars_to_int
+2025-10-27 00:47:05,061 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:47:05,062 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-10-27 00:47:05,063 - INFO - Action - Function call result: [73, 78, 68, 73, 65]
+2025-10-27 00:47:05,064 - INFO - Memory - Storing iteration 1
+2025-10-27 00:47:05,064 - INFO - __main__ - Action result: ['73', '78', '68', '73', '65']
+2025-10-27 00:47:05,065 - INFO - __main__ - 
+--- Iteration 2 ---
+2025-10-27 00:47:05,067 - INFO - Perception - Observing environment
+2025-10-27 00:47:05,068 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-10-27 00:47:05,068 - INFO - Perception - Environment observation complete: 6 data points
+2025-10-27 00:47:05,069 - INFO - __main__ - Making decision based on perception and memory...
+2025-10-27 00:47:05,070 - INFO - Decision_Making - Generating decision
+2025-10-27 00:47:05,070 - INFO - Decision_Making - Input analysis complete: 5 signals, 5 hints
+2025-10-27 00:47:05,071 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 1, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters', "Last result: ['73', '78', '68', '73', '65']", 'Most used function: strings_to_chars_to_int (2 times)'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-10-27 00:47:05,071 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-10-27 00:47:05,836 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: int_list_to_exponential_sum|73|78|68|73|65...
+2025-10-27 00:47:05,837 - INFO - __main__ - Decision type: function_call
+2025-10-27 00:47:05,838 - INFO - __main__ - Decision data: {'function_name': 'int_list_to_exponential_sum', 'arguments': {'int_list': [73]}}
+2025-10-27 00:47:05,838 - INFO - __main__ - Executing action...
+2025-10-27 00:47:05,838 - INFO - Action - Executing decision: function_call
+2025-10-27 00:47:05,839 - INFO - Memory - Stored decision: function_call
+2025-10-27 00:47:05,839 - INFO - Action - Executing tool: int_list_to_exponential_sum with arguments: {'int_list': [73]}
+2025-10-27 00:47:05,847 - INFO - Action - Tool execution successful: int_list_to_exponential_sum
+2025-10-27 00:47:05,847 - INFO - Memory - Storing tool call: int_list_to_exponential_sum
+2025-10-27 00:47:05,850 - INFO - Memory - Tracked method call: tools.int_list_to_exponential_sum
+2025-10-27 00:47:05,851 - INFO - Memory - Tracked method call: tools.int_list_to_exponential_sum
+2025-10-27 00:47:05,851 - INFO - Action - Function call result: 5.052393630276104e31
+2025-10-27 00:47:05,852 - INFO - Memory - Storing iteration 2
+2025-10-27 00:47:05,852 - INFO - __main__ - Action result: ['5.052393630276104e31']
+2025-10-27 00:47:05,854 - INFO - __main__ - Executing final visualization with TSAI text...
+2025-10-27 00:47:05,854 - INFO - Action - Executing visualization
+2025-10-27 00:47:05,855 - INFO - Action - Executing tool: draw_rectangle_with_turtle with arguments: {'width': 400, 'height': 150, 'text': 'TSAI'}
+2025-10-27 00:47:16,043 - INFO - Action - Tool execution successful: draw_rectangle_with_turtle
+2025-10-27 00:47:16,044 - INFO - Memory - Storing tool call: draw_rectangle_with_turtle
+2025-10-27 00:47:16,046 - INFO - Memory - Tracked method call: tools.draw_rectangle_with_turtle
+2025-10-27 00:47:18,136 - INFO - Memory - === Agent Execution Complete ===
+2025-11-02 06:15:18,529 - INFO - __main__ - Initializing Agent System
+2025-11-02 06:15:18,530 - INFO - Perception - Perception module initialized
+2025-11-02 06:15:18,530 - INFO - Memory - Comprehensive Memory module initialized
+2025-11-02 06:15:18,530 - INFO - Decision_Making - Decision-Making module initialized
+2025-11-02 06:15:18,530 - INFO - __main__ - Agent System initialized successfully
+2025-11-02 06:15:18,530 - INFO - __main__ - === Starting Agent Execution ===
+2025-11-02 06:15:18,530 - INFO - __main__ - Establishing connection to MCP server...
+2025-11-02 06:15:18,543 - INFO - __main__ - Connection established, creating session...
+2025-11-02 06:15:18,544 - INFO - __main__ - Session created, initializing...
+2025-11-02 06:15:19,548 - INFO - Action - Action module initialized
+2025-11-02 06:15:19,548 - INFO - __main__ - Requesting tool list...
+2025-11-02 06:15:19,552 - INFO - __main__ - Retrieved 23 tools
+2025-11-02 06:15:19,553 - INFO - __main__ - Processing user input through perception...
+2025-11-02 06:15:19,553 - INFO - Perception - Processing user input: Find the ASCII values of characters in INDIA and t...
+2025-11-02 06:15:19,553 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-11-02 06:15:19,554 - INFO - Perception - Input processed: Type=mathematical
+2025-11-02 06:15:19,554 - INFO - Memory - Stored prompt facts
+2025-11-02 06:15:19,555 - INFO - __main__ - 
+--- Iteration 1 ---
+2025-11-02 06:15:19,555 - INFO - Perception - Observing environment
+2025-11-02 06:15:19,556 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-11-02 06:15:19,556 - INFO - Perception - Environment observation complete: 6 data points
+2025-11-02 06:15:19,556 - INFO - __main__ - Making decision based on perception and memory...
+2025-11-02 06:15:19,556 - INFO - Decision_Making - Generating decision
+2025-11-02 06:15:19,556 - INFO - Decision_Making - Input analysis complete: 3 signals, 5 hints
+2025-11-02 06:15:19,556 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 0, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-11-02 06:15:19,557 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-11-02 06:15:20,650 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: strings_to_chars_to_int|INDIA...
+2025-11-02 06:15:20,650 - INFO - __main__ - Decision type: function_call
+2025-11-02 06:15:20,651 - INFO - __main__ - Decision data: {'function_name': 'strings_to_chars_to_int', 'arguments': {'string': 'INDIA'}}
+2025-11-02 06:15:20,651 - INFO - __main__ - Executing action...
+2025-11-02 06:15:20,652 - INFO - Action - Executing decision: function_call
+2025-11-02 06:15:20,652 - INFO - Memory - Stored decision: function_call
+2025-11-02 06:15:20,652 - INFO - Action - Executing tool: strings_to_chars_to_int with arguments: {'string': 'INDIA'}
+2025-11-02 06:15:20,660 - INFO - Action - Tool execution successful: strings_to_chars_to_int
+2025-11-02 06:15:20,660 - INFO - Memory - Storing tool call: strings_to_chars_to_int
+2025-11-02 06:15:20,660 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-11-02 06:15:20,660 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-11-02 06:15:20,661 - INFO - Action - Function call result: [73, 78, 68, 73, 65]
+2025-11-02 06:15:20,661 - INFO - Memory - Storing iteration 1
+2025-11-02 06:15:20,661 - INFO - __main__ - Action result: ['73', '78', '68', '73', '65']
+2025-11-02 06:15:20,661 - INFO - __main__ - 
+--- Iteration 2 ---
+2025-11-02 06:15:20,661 - INFO - Perception - Observing environment
+2025-11-02 06:15:20,661 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-11-02 06:15:20,661 - INFO - Perception - Environment observation complete: 6 data points
+2025-11-02 06:15:20,661 - INFO - __main__ - Making decision based on perception and memory...
+2025-11-02 06:15:20,662 - INFO - Decision_Making - Generating decision
+2025-11-02 06:15:20,662 - INFO - Decision_Making - Input analysis complete: 5 signals, 5 hints
+2025-11-02 06:15:20,662 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 1, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters', "Last result: ['73', '78', '68', '73', '65']", 'Most used function: strings_to_chars_to_int (2 times)'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-11-02 06:15:20,662 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-11-02 06:15:21,567 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: int_list_to_exponential_sum|73|78|68|73|65...
+2025-11-02 06:15:21,568 - INFO - __main__ - Decision type: function_call
+2025-11-02 06:15:21,568 - INFO - __main__ - Decision data: {'function_name': 'int_list_to_exponential_sum', 'arguments': {'int_list': [73]}}
+2025-11-02 06:15:21,569 - INFO - __main__ - Executing action...
+2025-11-02 06:15:21,569 - INFO - Action - Executing decision: function_call
+2025-11-02 06:15:21,569 - INFO - Memory - Stored decision: function_call
+2025-11-02 06:15:21,569 - INFO - Action - Executing tool: int_list_to_exponential_sum with arguments: {'int_list': [73]}
+2025-11-02 06:15:21,577 - INFO - Action - Tool execution successful: int_list_to_exponential_sum
+2025-11-02 06:15:21,577 - INFO - Memory - Storing tool call: int_list_to_exponential_sum
+2025-11-02 06:15:21,578 - INFO - Memory - Tracked method call: tools.int_list_to_exponential_sum
+2025-11-02 06:15:21,578 - INFO - Memory - Tracked method call: tools.int_list_to_exponential_sum
+2025-11-02 06:15:21,578 - INFO - Action - Function call result: 5.052393630276104e31
+2025-11-02 06:15:21,578 - INFO - Memory - Storing iteration 2
+2025-11-02 06:15:21,579 - INFO - __main__ - Action result: ['5.052393630276104e31']
+2025-11-02 06:15:21,580 - INFO - __main__ - Executing final visualization with TSAI text...
+2025-11-02 06:15:21,580 - INFO - Action - Executing visualization
+2025-11-02 06:15:21,580 - INFO - Action - Executing tool: draw_rectangle_with_turtle with arguments: {'width': 400, 'height': 150, 'text': 'TSAI'}
+2025-11-02 06:15:32,838 - INFO - Action - Tool execution successful: draw_rectangle_with_turtle
+2025-11-02 06:15:32,838 - INFO - Memory - Storing tool call: draw_rectangle_with_turtle
+2025-11-02 06:15:32,839 - INFO - Memory - Tracked method call: tools.draw_rectangle_with_turtle
+2025-11-02 06:15:34,865 - INFO - Memory - === Agent Execution Complete ===
+2025-11-02 06:16:16,666 - INFO - __main__ - Initializing Agent System
+2025-11-02 06:16:16,666 - INFO - Perception - Perception module initialized
+2025-11-02 06:16:16,666 - INFO - Memory - Comprehensive Memory module initialized
+2025-11-02 06:16:16,666 - INFO - Decision_Making - Decision-Making module initialized
+2025-11-02 06:16:16,667 - INFO - __main__ - Agent System initialized successfully
+2025-11-02 06:16:16,667 - INFO - __main__ - === Starting Agent Execution ===
+2025-11-02 06:16:16,667 - INFO - __main__ - Establishing connection to MCP server...
+2025-11-02 06:16:16,684 - INFO - __main__ - Connection established, creating session...
+2025-11-02 06:16:16,685 - INFO - __main__ - Session created, initializing...
+2025-11-02 06:16:17,451 - INFO - Action - Action module initialized
+2025-11-02 06:16:17,451 - INFO - __main__ - Requesting tool list...
+2025-11-02 06:16:17,454 - INFO - __main__ - Retrieved 23 tools
+2025-11-02 06:16:17,455 - INFO - __main__ - Processing user input through perception...
+2025-11-02 06:16:17,455 - INFO - Perception - Processing user input: Find the ASCII values of characters in INDIA and t...
+2025-11-02 06:16:17,455 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-11-02 06:16:17,456 - INFO - Perception - Input processed: Type=mathematical
+2025-11-02 06:16:17,456 - INFO - Memory - Stored prompt facts
+2025-11-02 06:16:17,456 - INFO - __main__ - 
+--- Iteration 1 ---
+2025-11-02 06:16:17,456 - INFO - Perception - Observing environment
+2025-11-02 06:16:17,456 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-11-02 06:16:17,456 - INFO - Perception - Environment observation complete: 6 data points
+2025-11-02 06:16:17,456 - INFO - __main__ - Making decision based on perception and memory...
+2025-11-02 06:16:17,456 - INFO - Decision_Making - Generating decision
+2025-11-02 06:16:17,456 - INFO - Decision_Making - Input analysis complete: 3 signals, 5 hints
+2025-11-02 06:16:17,456 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 0, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-11-02 06:16:17,457 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-11-02 06:16:18,487 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: strings_to_chars_to_int|INDIA...
+2025-11-02 06:16:18,488 - INFO - __main__ - Decision type: function_call
+2025-11-02 06:16:18,489 - INFO - __main__ - Decision data: {'function_name': 'strings_to_chars_to_int', 'arguments': {'string': 'INDIA'}}
+2025-11-02 06:16:18,489 - INFO - __main__ - Executing action...
+2025-11-02 06:16:18,490 - INFO - Action - Executing decision: function_call
+2025-11-02 06:16:18,490 - INFO - Memory - Stored decision: function_call
+2025-11-02 06:16:18,490 - INFO - Action - Executing tool: strings_to_chars_to_int with arguments: {'string': 'INDIA'}
+2025-11-02 06:16:18,496 - INFO - Action - Tool execution successful: strings_to_chars_to_int
+2025-11-02 06:16:18,496 - INFO - Memory - Storing tool call: strings_to_chars_to_int
+2025-11-02 06:16:18,496 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-11-02 06:16:18,496 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-11-02 06:16:18,497 - INFO - Action - Function call result: [73, 78, 68, 73, 65]
+2025-11-02 06:16:18,497 - INFO - Memory - Storing iteration 1
+2025-11-02 06:16:18,497 - INFO - __main__ - Action result: ['73', '78', '68', '73', '65']
+2025-11-02 06:16:18,497 - INFO - __main__ - 
+--- Iteration 2 ---
+2025-11-02 06:16:18,497 - INFO - Perception - Observing environment
+2025-11-02 06:16:18,498 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-11-02 06:16:18,498 - INFO - Perception - Environment observation complete: 6 data points
+2025-11-02 06:16:18,498 - INFO - __main__ - Making decision based on perception and memory...
+2025-11-02 06:16:18,498 - INFO - Decision_Making - Generating decision
+2025-11-02 06:16:18,498 - INFO - Decision_Making - Input analysis complete: 5 signals, 5 hints
+2025-11-02 06:16:18,499 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 1, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters', "Last result: ['73', '78', '68', '73', '65']", 'Most used function: strings_to_chars_to_int (2 times)'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-11-02 06:16:18,499 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-11-02 06:16:19,377 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: int_list_to_exponential_sum|[73, 78, 68, 73, 65]...
+2025-11-02 06:16:19,378 - INFO - __main__ - Decision type: function_call
+2025-11-02 06:16:19,379 - INFO - __main__ - Decision data: {'function_name': 'int_list_to_exponential_sum', 'arguments': {'int_list': [73, 78, 68, 73, 65]}}
+2025-11-02 06:16:19,380 - INFO - __main__ - Executing action...
+2025-11-02 06:16:19,380 - INFO - Action - Executing decision: function_call
+2025-11-02 06:16:19,380 - INFO - Memory - Stored decision: function_call
+2025-11-02 06:16:19,380 - INFO - Action - Executing tool: int_list_to_exponential_sum with arguments: {'int_list': [73, 78, 68, 73, 65]}
+2025-11-02 06:16:19,384 - INFO - Action - Tool execution successful: int_list_to_exponential_sum
+2025-11-02 06:16:19,385 - INFO - Memory - Storing tool call: int_list_to_exponential_sum
+2025-11-02 06:16:19,385 - INFO - Memory - Tracked method call: tools.int_list_to_exponential_sum
+2025-11-02 06:16:19,385 - INFO - Memory - Tracked method call: tools.int_list_to_exponential_sum
+2025-11-02 06:16:19,385 - INFO - Action - Function call result: 7.59982224609308e33
+2025-11-02 06:16:19,385 - INFO - Memory - Storing iteration 2
+2025-11-02 06:16:19,386 - INFO - __main__ - Action result: ['7.59982224609308e33']
+2025-11-02 06:16:19,386 - INFO - __main__ - Executing final visualization with TSAI text...
+2025-11-02 06:16:19,386 - INFO - Action - Executing visualization
+2025-11-02 06:16:19,386 - INFO - Action - Executing tool: draw_rectangle_with_turtle with arguments: {'width': 400, 'height': 150, 'text': 'TSAI'}
+2025-11-02 06:16:29,454 - INFO - Action - Tool execution successful: draw_rectangle_with_turtle
+2025-11-02 06:16:29,454 - INFO - Memory - Storing tool call: draw_rectangle_with_turtle
+2025-11-02 06:16:29,455 - INFO - Memory - Tracked method call: tools.draw_rectangle_with_turtle
+2025-11-02 06:16:31,477 - INFO - Memory - === Agent Execution Complete ===
+2025-11-02 18:47:32,783 - INFO - __main__ - Initializing Agent System
+2025-11-02 18:47:32,784 - INFO - RAG - Initialized with 7 Paint documents
+2025-11-02 18:47:32,784 - INFO - RAG - RAG module initialized
+2025-11-02 18:47:32,784 - INFO - Perception - RAG module integrated into Perception
+2025-11-02 18:47:32,784 - INFO - Perception - Perception module initialized
+2025-11-02 18:47:32,784 - INFO - Memory - Comprehensive Memory module initialized
+2025-11-02 18:47:32,785 - INFO - Decision_Making - Decision-Making module initialized
+2025-11-02 18:47:32,785 - INFO - __main__ - Agent System initialized successfully
+2025-11-02 18:47:32,785 - INFO - __main__ - === Starting Agent Execution ===
+2025-11-02 18:47:32,785 - INFO - __main__ - Establishing connection to MCP server...
+2025-11-02 18:47:32,800 - INFO - __main__ - Connection established, creating session...
+2025-11-02 18:47:32,801 - INFO - __main__ - Session created, initializing...
+2025-11-02 18:47:33,773 - INFO - Action - Action module initialized
+2025-11-02 18:47:33,773 - INFO - __main__ - Requesting tool list...
+2025-11-02 18:47:33,777 - INFO - __main__ - Retrieved 23 tools
+2025-11-02 18:47:33,778 - INFO - __main__ - Processing user input through perception...
+2025-11-02 18:47:33,778 - INFO - Perception - Processing user input: Find the ASCII values of characters in INDIA and t...
+2025-11-02 18:47:33,778 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-11-02 18:47:33,778 - INFO - Perception - Input processed: Type=mathematical
+2025-11-02 18:47:33,778 - INFO - Memory - Stored prompt facts
+2025-11-02 18:47:33,779 - INFO - __main__ - 
+--- Iteration 1 ---
+2025-11-02 18:47:33,779 - INFO - Perception - Observing environment
+2025-11-02 18:47:33,779 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-11-02 18:47:33,779 - INFO - Perception - Environment observation complete: 6 data points
+2025-11-02 18:47:33,779 - INFO - __main__ - Making decision based on perception and memory...
+2025-11-02 18:47:33,779 - INFO - Decision_Making - Generating decision
+2025-11-02 18:47:33,779 - INFO - Decision_Making - Input analysis complete: 3 signals, 5 hints
+2025-11-02 18:47:33,779 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 0, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-11-02 18:47:33,780 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-11-02 18:47:34,810 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: strings_to_chars_to_int|INDIA...
+2025-11-02 18:47:34,810 - INFO - __main__ - Decision type: function_call
+2025-11-02 18:47:34,810 - INFO - __main__ - Decision data: {'function_name': 'strings_to_chars_to_int', 'arguments': {'string': 'INDIA'}}
+2025-11-02 18:47:34,811 - INFO - __main__ - Executing action...
+2025-11-02 18:47:34,811 - INFO - Action - Executing decision: function_call
+2025-11-02 18:47:34,811 - INFO - Memory - Stored decision: function_call
+2025-11-02 18:47:34,812 - INFO - Action - Executing tool: strings_to_chars_to_int with arguments: {'string': 'INDIA'}
+2025-11-02 18:47:34,819 - INFO - Action - Tool execution successful: strings_to_chars_to_int
+2025-11-02 18:47:34,819 - INFO - Memory - Storing tool call: strings_to_chars_to_int
+2025-11-02 18:47:34,820 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-11-02 18:47:34,820 - INFO - Memory - Tracked method call: tools.strings_to_chars_to_int
+2025-11-02 18:47:34,820 - INFO - Action - Function call result: [73, 78, 68, 73, 65]
+2025-11-02 18:47:34,820 - INFO - Memory - Storing iteration 1
+2025-11-02 18:47:34,820 - INFO - __main__ - Action result: ['73', '78', '68', '73', '65']
+2025-11-02 18:47:34,820 - INFO - __main__ - 
+--- Iteration 2 ---
+2025-11-02 18:47:34,820 - INFO - Perception - Observing environment
+2025-11-02 18:47:34,820 - INFO - Perception - Extracted 7 fact categories from prompt
+2025-11-02 18:47:34,821 - INFO - Perception - Environment observation complete: 6 data points
+2025-11-02 18:47:34,821 - INFO - __main__ - Making decision based on perception and memory...
+2025-11-02 18:47:34,821 - INFO - Decision_Making - Generating decision
+2025-11-02 18:47:34,821 - INFO - Decision_Making - Input analysis complete: 5 signals, 5 hints
+2025-11-02 18:47:34,821 - INFO - Decision_Making - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'mathematical'}, 'memory_analysis': {'total_iterations': 1, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: mathematical', 'Key concepts: ascii, exponential, sum, india, values, characters', "Last result: ['73', '78', '68', '73', '65']", 'Most used function: strings_to_chars_to_int (2 times)'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures']}
+2025-11-02 18:47:34,822 - INFO - Decision_Making - Generating AI response (timeout: 30s)
+2025-11-02 18:47:35,834 - INFO - Decision_Making - Decision generated: FUNCTION_CALL: int_list_to_exponential_sum|73|78|68|73|65...
+2025-11-02 18:47:35,834 - INFO - __main__ - Decision type: function_call
+2025-11-02 18:47:35,835 - INFO - __main__ - Decision data: {'function_name': 'int_list_to_exponential_sum', 'arguments': {'int_list': [73, 78, 68, 73, 65]}}
+2025-11-02 18:47:35,835 - INFO - __main__ - Executing action...
+2025-11-02 18:47:35,835 - INFO - Action - Executing decision: function_call
+2025-11-02 18:47:35,835 - INFO - Memory - Stored decision: function_call
+2025-11-02 18:47:35,835 - INFO - Action - Executing tool: int_list_to_exponential_sum with arguments: {'int_list': [73, 78, 68, 73, 65]}
+2025-11-02 18:47:35,839 - INFO - Action - Tool execution successful: int_list_to_exponential_sum
+2025-11-02 18:47:35,839 - INFO - Memory - Storing tool call: int_list_to_exponential_sum
+2025-11-02 18:47:35,839 - INFO - Memory - Tracked method call: tools.int_list_to_exponential_sum
+2025-11-02 18:47:35,840 - INFO - Memory - Tracked method call: tools.int_list_to_exponential_sum
+2025-11-02 18:47:35,840 - INFO - Action - Function call result: 7.59982224609308e33
+2025-11-02 18:47:35,840 - INFO - Memory - Storing iteration 2
+2025-11-02 18:47:35,840 - INFO - __main__ - Action result: ['7.59982224609308e33']
+2025-11-02 18:47:35,841 - INFO - __main__ - Executing final visualization with TSAI text...
+2025-11-02 18:47:35,841 - INFO - Action - Executing visualization
+2025-11-02 18:47:35,841 - INFO - Action - Executing tool: draw_rectangle_with_turtle with arguments: {'width': 400, 'height': 150, 'text': 'TSAI'}
+2025-11-02 18:47:46,553 - INFO - Action - Tool execution successful: draw_rectangle_with_turtle
+2025-11-02 18:47:46,554 - INFO - Memory - Storing tool call: draw_rectangle_with_turtle
+2025-11-02 18:47:46,555 - INFO - Memory - Tracked method call: tools.draw_rectangle_with_turtle
+2025-11-02 18:47:48,569 - INFO - Memory - === Agent Execution Complete ===

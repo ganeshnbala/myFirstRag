@@ -1,0 +1,43 @@
+2025-11-02 19:06:44,682 - RAG - INFO - Initialized with 7 Paint documents
+2025-11-02 19:06:44,682 - RAG - INFO - Initialized with 5 BBC documents
+2025-11-02 19:06:44,682 - RAG - INFO - RAG module initialized
+2025-11-02 19:06:44,683 - Perception - INFO - RAG module integrated into Perception
+2025-11-02 19:06:44,683 - Perception - INFO - Perception module initialized
+2025-11-02 19:06:44,683 - Memory - INFO - Comprehensive Memory module initialized
+2025-11-02 19:06:44,683 - Decision_Making - INFO - Decision-Making module initialized
+2025-11-02 19:06:44,683 - __main__ - INFO - Connecting to MCP server...
+2025-11-02 19:06:45,536 - Action - INFO - Action module initialized
+2025-11-02 19:06:45,541 - Perception - INFO - Processing user input: Get me the latest BBC headlines and display them i...
+2025-11-02 19:06:45,541 - Perception - INFO - Extracted 7 fact categories from prompt
+2025-11-02 19:06:45,541 - Perception - INFO - Applying RAG context enhancement for BBC headlines-related query
+2025-11-02 19:06:45,542 - RAG - INFO - Retrieved 3 relevant documents for query: Get me the latest BBC headlines and display them i
+2025-11-02 19:06:45,542 - RAG - INFO - Context enhanced with retrieved documents
+2025-11-02 19:06:45,542 - RAG - INFO - Retrieved 3 relevant documents for query: Get me the latest BBC headlines and display them i
+2025-11-02 19:06:45,542 - RAG - INFO - Generated 5 function recommendations
+2025-11-02 19:06:45,542 - Perception - INFO - Added 3 relevant documents
+2025-11-02 19:06:45,543 - Perception - INFO - Input processed: Type=news_fetching
+2025-11-02 19:06:45,544 - Memory - INFO - Stored prompt facts
+2025-11-02 19:06:45,544 - Decision_Making - INFO - Generating decision
+2025-11-02 19:06:45,544 - Decision_Making - INFO - Input analysis complete: 4 signals, 6 hints
+2025-11-02 19:06:45,544 - Decision_Making - INFO - Input analysis: {'perception_analysis': {'prompt_facts_count': 7, 'query_type': 'news_fetching'}, 'memory_analysis': {'total_iterations': 0, 'errors_count': 0}, 'context_signals': ["Expected output formats: ['FUNCTION_CALL: function_name|param1|param2|...', 'FINAL_ANSWER: [number]']", 'Query type: news_fetching', 'Key concepts: bbc, headlines, browser', 'Recent context facts: 1 available'], 'decision_hints': ['step-by-step reasoning', 'internal reasoning explanation', 'reasoning type tagging (arithmetic, logic, lookup, drawing)', 'internal self-verification', 'fallback mechanism for failures', 'Visualization required']}
+2025-11-02 19:06:45,544 - Decision_Making - INFO - Generating AI response (timeout: 30s)
+2025-11-02 19:06:46,657 - Decision_Making - INFO - Decision generated: FUNCTION_CALL: fetch_bbc_headlines|10...
+2025-11-02 19:06:46,658 - Action - INFO - Executing decision: function_call
+2025-11-02 19:06:46,658 - Memory - INFO - Stored decision: function_call
+2025-11-02 19:06:46,658 - Action - INFO - Executing tool: fetch_bbc_headlines with arguments: {'num_headlines': 10}
+2025-11-02 19:06:46,988 - Action - INFO - Tool execution successful: fetch_bbc_headlines
+2025-11-02 19:06:46,988 - Memory - INFO - Storing tool call: fetch_bbc_headlines
+2025-11-02 19:06:46,989 - Memory - INFO - Tracked method call: tools.fetch_bbc_headlines
+2025-11-02 19:06:46,989 - Memory - INFO - Tracked method call: tools.fetch_bbc_headlines
+2025-11-02 19:06:46,989 - Action - INFO - Function call result: {
+  "content": [
+    {
+      "type": "text",
+      "text": "Successfully fetched 10 BBC headlines and saved to bbc_headlines.txt",
+      "annotations": null,
+      "_meta": null
+    }
+  ]
+}
+2025-11-02 19:06:46,990 - Memory - INFO - Storing iteration 1
+2025-11-02 19:15:19,728 - __main__ - ERROR - Main error: 'charmap' codec can't encode character '\U0001f389' in position 0: character maps to <undefined>
